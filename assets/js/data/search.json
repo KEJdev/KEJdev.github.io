@@ -1,0 +1,1729 @@
+[
+  
+  {
+    "title": "머신러닝에서 미적분이 필요한 이유 2",
+    "url": "/posts/non-linearity/",
+    "categories": "Machine Learning, Statistics",
+    "tags": "통계",
+    "date": "2021-02-11 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "예전 포스팅에 미분이 필요한 이유에 대해서 정말 잠깐 이야기 했었는데, 블로그 정리하면서 보니 설명이 매우 부족한거 같아 좀 더 정리할 겸 이렇게 글을 쓰게 되었다.다항식머신러닝에서 비선형 함수를 어떻게 추측해낼까? 우선 비선형 함수를 가장 간단하게 표현하면 아래와 같이 다항식으로 표현할 수 있다.\\[h_{\\theta }\\left ( x \\right )= \\theta _{0} + \\theta _{1}x +  \\theta _{2}x^{2}  +  \\theta _{3}x^{3}  +  \\theta _{4}x^{4}  +  \\the..."
+  },
+  
+  {
+    "title": "데이터 사이언스란?",
+    "url": "/posts/data-science/",
+    "categories": "Machine Learning, Statistics",
+    "tags": "통계",
+    "date": "2021-02-10 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "데이터 사이언스 ?데이터 사이언스는 단순하게 애기하면 곡선형 그래프를 찾는 작업이다.아래처럼 같은 데이터에 대해 선형 함수와 비선형 함수가 있다고 가정하자.그림에서 선형 함수와 비선형 함수 중 어느 함수가 주어진 데이터를 더 잘 설명하고 있는가? (지금 현재 그래프만 봐서는) 선형함수에 비해 비선형함수가 데이터에 대해 더 잘 설명하고 있다고 볼 수 있다. 데이터 속에 복잡한 규칙이 숨겨져 있을 때, 최적의 (비)선형 함수를 찾아내는 작업을 데이터 사이언스라고 이야기 할 수 있다.여기서 기억해야 댈 점은, 머신러닝 또한 데이터의..."
+  },
+  
+  {
+    "title": "샘플링과 리샘플링의 차이는 무엇일까?",
+    "url": "/posts/sampling-resampling/",
+    "categories": "Machine Learning, Statistics",
+    "tags": "통계",
+    "date": "2021-01-25 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "샘플링과 리샘플링은 여러곳에 다양하게 사용되기 때문에 알아둬야 한다. 샘플링과 리샘플링에 대해 간단하게 알아보자.샘플링(Sampling)샘플링은 모집단에서 임의의 Sampling을 뽑아내는 것으로, 쉽게 말해 표본 추출을 의미한다. 샘플링을 하는 가장 큰 이유는 모집단 전체에 대한 조사는 사실상 불가능하기 때문에 Sampling을 이용하여 모집단에 대한 추론을 하게 되는 것이다. 주로 머신러닝과 통계분야에서 흔히 볼 수 있으며 신뢰구간, 오버피팅, 분산 등 밀접한 관련이 있다.여기서 알아둬야 할 것은 표본은 모집단을 닮은 모집..."
+  },
+  
+  {
+    "title": "고유값(eigen value)과 고유벡터(eigen vector), 왜 중요한가?",
+    "url": "/posts/eigen-value-eigen-vecotor/",
+    "categories": "Machine Learning, Statistics",
+    "tags": "통계",
+    "date": "2021-01-04 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "고유값과 고유벡터에 대해서 많이 들어봤을 것이다. 그만큼 무척 중요하다고 모두들 이야기한다. 이번에 새롭게 공부하기 시작하면서 고유값과 고유벡터가 무엇인지, 왜 중요한지에 대해 정리해보려고 한다.고유값, 고유벡터란?대부분 벡터 x에 어떤 행렬 A를 곱하게 되면 벡터의 크기와 방향이 바뀌게 된다. 그러나 정방행렬에 정방행렬의 고유벡터를 곱하면 고유벡터의 방향이 바뀌지 않는다 더 간단히 말하면 벡터x가 행렬 A의 고유벡터라면 바뀌지 않는다.월래 정방행렬 A는 임의의 벡터 x과의 행렬연산으로 x의 위치나 방향을 전환 시키는 역활을 ..."
+  },
+  
+  {
+    "title": "2021 AI 개발자 로드맵",
+    "url": "/posts/AI-Roadmap/",
+    "categories": "ETC, etc",
+    "tags": "etc",
+    "date": "2021-01-03 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이제 3년차 머신러닝 개발자로 들어서고 있는 시점에 나는 내가 가지고 있는 역량이나 방향이 제대로 가고 있는지에 대해 또는 무엇을 더 공부해야 되는지에 대해 의문을 가졌다. 로드맵은 언제든 바뀔 수 있으므로 최신버전을 보고 싶다면 링크를 타고 확인하기를 바란다.Introduction      Fundamentals      Data Science Roadmap      Machine Learning Roadmap      Deep Learning Roadmap      Data Engineer Roadmap      Big D..."
+  },
+  
+  {
+    "title": "3년차 머신러닝 개발자 나의 2020년 정리하며..",
+    "url": "/posts/log-2020/",
+    "categories": "ETC, etc",
+    "tags": "etc",
+    "date": "2021-01-02 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이제 2021년 된 새해 기념으로 나의 2020년 정리해볼까 한다. (일기처럼 줄줄 썻기 때문에 그냥 술술 읽고 가볍게 넘기면 된다)2020년 3줄 요약      팀 이동팀원들 절반이 퇴사하는 일 발생하며, 팀 이동됨        머신러닝 개발 1도 안함 급하게 REST API 만드는 일이 생겨 올해 절반을 API개발만 함.        대학원 합격나 자신을 공부시키기 위해 스스로 대학원에 들어감.  누군가 2020년도는 나에게 어떤 해였는지 물어본다면, 정신적으로 정말 힘들었던 해라고 이야기 할 수 있다. 나는 3년동안 현재..."
+  },
+  
+  {
+    "title": "파이썬 컨벤션에 대해 알아보자",
+    "url": "/posts/python-convention/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-12-12 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "회사에서 일하다보면 간혹 파이참에서 내 코드에 노란줄 표시하는 것을 볼 수 있다. 이 노란줄은 “컨벤션 좀 지켜주세요” 라는 뜻이다. Go 같은 경우는 무조건 지켜야 실행이 가능하지만, 다른 언어들은 지키지 않아도 문제 없기 때문에 사실 안지키는 사람이 많다. 나도 지키지 않는 경우가 많은데, 이제는 깔끔하게 코드를 짜고 싶어 이렇게 한번 되돌아보는 시간을 가져볼까 한다.사실 컨벤션은 필수가 아니고 “코드를 이렇게 작성하는게 좋을 것 같습니다.” 하는 스타일 가이드이다. 스타일 가이드가 중요한 이유는 혼자 보는 코드가 아니기 ..."
+  },
+  
+  {
+    "title": "P-value란? (with Python)",
+    "url": "/posts/statistics-p-value/",
+    "categories": "Machine Learning, Statistics",
+    "tags": "Python, 통계",
+    "date": "2020-12-04 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "P-value에 대해 알기전에 귀무가설, 대립가설에 대해 알아야한다. 귀무가설은 표본 데이터를 사용하여 모집단에 대한 주장(귀무가설)의 타당성을 검정한다.간단하게 말하면 어떠한 두 가지 현상 사이에 관계가 없다라고 이야기하는 일반적인 가설이다. 대립가설은 귀무가설과 반대로 내가 믿는 것, 실험이나 연구를 통해 입증하려고 하는 주장을 말한다. 이제 귀무가설, 대립가설에 대해 알았으니 P-value에 대해 알아보자.What is P-value?아래와 같은 정규 분포가 있다고 하자.P-value는 귀무 가설(null hypothes..."
+  },
+  
+  {
+    "title": "도커로 오라클을 사용해보자",
+    "url": "/posts/docker-sql-install/",
+    "categories": "ETC, etc",
+    "tags": "DB, Oracle, Docker",
+    "date": "2020-12-04 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "어쩌다보니, 집에서 SQL쿼리문을 간단하게 짜야하는 일이 생겨버렸다. 그러나 집에서 오라클을 설치해서 사용해야하는데, 그러기에는 너무 번거롭다..어떻게 할까? 생각하다가 왠지 도커로 오라클 설치해서 사용할 수 있을 것 같아 시도해봤는데, 역시나 도커★ 기대를 저버리지 않는다.Docker OracleDocker Hub에 가면 Oracle 11g 이미지를 다운받아 사용할 수 있다.docker pull jaspeen/oracle-11g이미지를 다운 받았으면, 실행을 해보자.docker run --name oracle11g -d -p..."
+  },
+  
+  {
+    "title": "파이썬 REST API을 만들어보자",
+    "url": "/posts/python-rest-api/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법, API",
+    "date": "2020-10-19 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "회사에서 머신러닝 개발자로 일하고 있지만, 1년 내내 머신러닝 모델을 만들거나 논문만 읽거나 그러지는 않는다. 나름대로 Python API 나, 자바 컨트롤러 정도는 만들면서 다른 업무도 도와주거나, 데이터 분석도 하는 편이다.그중에서 입사 초에 Python API 하나를 못 만들어서 정말 고생했던 것을 이번 포스팅에서 풀어볼까 한다. 이번 포스팅에서는 Python API를 만들면서 테스트 하는 것을 중점으로 포스팅 할 것이다.REST API우선 API를 만들기전에 API로 만들어야 할 함수를 간단하게 두개 만들것이다. 나는 ..."
+  },
+  
+  {
+    "title": "스마트폰 만족감에 영향을 주는 것이 무엇일까?(다중회귀)",
+    "url": "/posts/r-linear-regression3/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-09-17 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "단순 선형 회귀분석의 목적이 하나의 독립변수만을 가지고 종속 변수를 예측하기 위한 회귀 모형을 만들기 위한 것이었다면, 다중 회귀 분석의 목적은 여러 개의 독립변수(x)들을 가지고 종속변수(y)를 예측하기 위한 회귀 모형을 만드는 것이다.예를 들면 집값에 영향을 미치는 요소가 단순히 평수만 있는 것이 아니다. 요소 중에는 평수, 교통, 집방향, 층수, 풍수지리, 범죄율, 학군 등등이 있다.스마트폰 만족감에 영향을 주는 것이번에 스마트폰 만족감에 영향을 주는 것이라는 주제로 다중 회귀 분석을 하려고 합니다. 위에서 말했듯이 집값..."
+  },
+  
+  {
+    "title": "표준화(Standardization)와 정규화(Normalization)의 차이",
+    "url": "/posts/ml-standardization-normalization/",
+    "categories": "Machine Learning, Statistics",
+    "tags": "",
+    "date": "2020-09-14 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "예전에 부장님이 나에게 퀴즈로 내신 문제가 생각나서 글을 올리게 되었다. 어느날 문득 “표준화와 정규화의 차이점에 대해 말해봐” 라는 질문을 받게 되었는데, 그 당시 정규화에 대해서만 애기하고 표준화에 대해서는 대충 대답했던 것이 떠올랐다. 공부도 할 겸 적어서 우선 올려본다.  표준화 (Standardization)평균을 기준으로 얼마나 떨어져 있는지를 나타낼 때 사용하는 값으로 2개 이상의 대상의 단위가 다를 때 대상 데이터를 같은 기준으로 보게 하기 위해서 사용한다.  정규화(Normalization)정규화는 전체 구간을..."
+  },
+  
+  {
+    "title": "강화학습으로 tic tac toe 학습 시키기전 필요 요소",
+    "url": "/posts/tic-tac-toe/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "Python, ML, 강화학습",
+    "date": "2020-08-20 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "강화학습을 이용해서 tic tac toe을 만들어볼까한다. 강화는 동물이 시행착오를 통해 학습하는 방법 중 하나로 강화라는 개념을 처음 제시한 스키너라는 행동 심리학자이다.강화라는 것은 동물이 이전에 배우지 않았지만 직접 시도하면서 행동과 그 결과를 나타나는 좋은 보상 사이에 상관관계를 학습하는 것이다.핵심은 바로 보상을 얻게해주는 행동의 빈도의 증가이다. 다른말로 애기하면 보상을 얻게 하는 행동을 점점 더 많이 하도록 학습하는 것을 말한다.지도학습과 강화학습의 차이강화학습으로 tic tac toe를 만들기 전에 우선 지도학습..."
+  },
+  
+  {
+    "title": "정규분포에 대해 알아보자",
+    "url": "/posts/r-normal-distribution/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-08-09 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "정규분포는 많은 경영, 경제, 사회현상, 자연 현상들이 정규분포의 형태를 띄고 있다. 예를 들면 한국 성인 남자의 평균 키가 173cm라고 하면 키가 173cm에서 크게 벗어나지 않는 사람들이 많고,상대적으로 이 수치에서 벗어난 150cm, 190cm인 사람들은 별로 없다는 의미이다.정규분포정규분포는 평균에서 멀어질수록 데이터 분포가 감소하여 종모양의 형태를 띈다. 그리고 정규분포 그래프를 3등분하면, 평균 근처의 비율이 68%정도 된다.## -3 ~3까지의 데이터를 200개 만든다.x&amp;lt;-seq(-3, 3, len..."
+  },
+  
+  {
+    "title": "Go에서 Pointer 사용하기",
+    "url": "/posts/go-pointers/",
+    "categories": "Program Language, Go",
+    "tags": "",
+    "date": "2020-07-30 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "GO는 설치되어 있지 않지만 실행을 해보고 싶다면, 여기에서 간단하게 돌려 볼 수 있다.Go PointersGo에는 포인터가 있지만 포인터 연산은 불가능하다. 구조체 변수는 구조체 포인터를 이용해 접근 할 수 있다. 포인터를 이용하는 간접적인 접근은 실제 구조체에도 영향을 미친다.package mainimport (	&quot;fmt&quot;)type Vertex struct {	x int	y int}func main() {	p := Vertex{1, 2}	q := &amp;amp;p	q.x = 1e9	fmt.Println(..."
+  },
+  
+  {
+    "title": "백준 10951번 while문으로 A+B를 출력하자(EOF)",
+    "url": "/posts/algorithm-baekjoon7/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-07-19 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이번 문제는 간단하게 예외처리만 하면 되는 문제인데, 문제에 EOF라고 명시가 되어 있지 않아서 조금 해맸다. 나중에 EOF라는 것를 밖에 링크 누를때 확인하고 나서야 풀 수 있었다…ㅠㅠ백준 10951번문제는 아래와 같다.Answer:while(True):    try :        a, b = list(map(int, input().split(&#39; &#39;)))        print(a + b)    except EOFError:        break"
+  },
+  
+  {
+    "title": "백준 10171번 고양이를 출력하자",
+    "url": "/posts/algorithm-baekjoon6/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-07-16 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "백준 10171번의 고양이를 출력하자 문제는 너무나 귀여운 것 같다..백준 10171번문제는 아래와 같다.Answer:print(&quot;\\    /\\\\\\n )  ( &#39;)\\n(  /  )\\n \\(__)|&quot;)"
+  },
+  
+  {
+    "title": "백준 2588번, 빈 칸에 들어갈 수는? (곱셈)",
+    "url": "/posts/algorithm-baekjoon5/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-07-15 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "BAEKJOON 2588번 문제는 빈 칸에 들어갈 수를 출력하는 문제이다. 사실 혼자서 어렵게 풀고 있었다가 나중에서야 “아..” 하고 나의 바보스러움에 감탄하며 문제를 풀었다.백준 2588번문제는 아래와 같다.Answer:a = int(input())b = list(input())b.reverse()for i in range(3):    num = str(a*int(b[i]))    print(num)print(a*int(b[2]+b[1]+b[0]))"
+  },
+  
+  {
+    "title": "백준 10869번, 사칙연산",
+    "url": "/posts/algorithm-baekjoon4/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-07-11 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "BAEKJOON 10869번 문제를 풀어보았다. 간단하게 print에 사칙연산 출력만 하면 되기 때문에 금방 할 수 있다.백준 10869번문제는 아래와 같다.Answer:a,b = map(int , input().split(&#39; &#39;))print(a+b)print(a-b)print(a*b)print(int(a/b))print(a%b)"
+  },
+  
+  {
+    "title": "백준 10871번, x보다 작은 수 출력하기",
+    "url": "/posts/algorithm-baekjoon3/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-07-10 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "BAEKJOON 10871번 문제를 풀어보았다. for문만 사용할 줄 안다면, 푸는데는 2분도 채 걸리지 않을것이다.백준 10871번문제는 아래와 같다.Answer:a = list(map(int,input().split(&#39; &#39;)))b = list(map(int,input().split(&#39; &#39;)))num = []for i in b:    if a[1] &amp;gt; i:        num.append(i)    else:        passprint(*num, sep = &quot; &quot;)"
+  },
+  
+  {
+    "title": "백준 1330번, 두 수 비교하기(if)",
+    "url": "/posts/algorithm-baekjoon2/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-07-03 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "간단하게 두 수 비교하는 백준 알고리즘을 풀어보았다.사실 if문 배우면서 누구나 한번쯤은 해본거라 사실 고민할거리도 되지 않았다 …..백준 1330번문제는 아래와 같이 간단하게 두 수를 비교하는 것이다.Answer:a,b = map(int, input().split())if a &amp;gt; b :    print(&quot;&amp;gt;&quot;)elif a &amp;lt; b :    print(&quot;&amp;lt;&quot;)else:    print(&quot;==&quot;)그런데 문제 다 풀고 나서 숏코딩..."
+  },
+  
+  {
+    "title": "백준 2557번, Hello World!를 출력하자",
+    "url": "/posts/algorithm-baekjoon1/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-07-03 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "아마 2년만에 알고리즘에 손대는 것 같다. 취업하고 나서는 알고리즘에 손도 안대서 그런지 오랜만에 문제 풀려고 하니까 안풀어지더라. 그래서  백준 알고리즘을 하나씩 풀어볼까 한다.백준 2557번사실 문제가 너무 간단해서 포스팅 안하려고 했다.근데 처음 시도했을때, 틀렸습니다와 컴파일 에러 뜨길래 보니까 언어 선택을 잘못하거나”Hello World!”에서 ! 안붙여서 에러가 났다…문제를 잘 읽고 풀어야 하는 알고리즘에서 그냥 Hello World 출력하는거네~ 하고 문제 제대로 안보고 그냥 코드를 돌린 나의 한심함을 표하며 글을..."
+  },
+  
+  {
+    "title": "이름없는 한줄짜리 함수(Lambda)",
+    "url": "/posts/python-lambad/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-07-02 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "함수나, 클래스를 만들때 보통은 함수에 이름을 붙여서 사용한다. 그러나 함수를 재사용하지 않으려고 하는 경우에 Lambda 함수를 사용한다.Lambda람다식은 아래와 같다.그래서 위의 식을 이용해서 간단하게 덧셈 함수를 만들면 이렇게 할 수 있다.add = lambda x, y: x+y               #매개변수  :  #실행문ret = add(1, 3)print(ret)    # 4가 출력됨람다는 간단하지만, 처음 사용할땐 어려울 수 있다.funcs = [lambda x: x+&#39;.pptx&#39;, lambd..."
+  },
+  
+  {
+    "title": "R에서 병렬처리하는 방법",
+    "url": "/posts/r-doparallel/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-07-01 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "우선은 병렬처리를 왜하는걸까? 병렬처리가 중요한가 ?와 함께 하둡에 대해 살짝 이야기 해볼까한다. 하둡(hadoop)이라고 아마 많이 들어봤을꺼다. 구글에서 쌓여지는 수많은 빅데이터들을 구글에서도 처음에는 RDBMS(오라클)에 입력하고 데이터를 저장하고 처리하려고 시도를 했지만, 데이터가 너무 많아서 실패하고 자체적으로 빅데이터를 저장할 기술을 개발했다. 그리고 대외적으로 논문 하나를 발표했는데, 그 논문을 더그커팅이라는 사람이 읽고 자바로 구현한게 하둡(hadoop)이다.여기서 TMI는 이름을 뭘로 할까 고민하다가 더그커팅의..."
+  },
+  
+  {
+    "title": "k-means? 유사한 데이터끼리 묶을 수 있을까?",
+    "url": "/posts/r-k-means/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-06-30 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "k-means는 우선 비지도 학습에 속한다. 비지도 학습은 대체로 라벨이 없기 때문에 입력 데이터의 특징을 가지고 자동으로 분류한다. k-means는 그중에서 간단하고 자주 쓰이는 편에 속한다.k-means위에서도 말했듯, 요약하면 k-means는 각 문서들 속에 들어있는 데이터 분석을 통해 유사하거나 관계가 높은 항목들끼리 집합을 만들고 싶을 때, 사용하는 알고리즘이다.그림을 설명해보자면 아래와 같다.  처음에 중심값을 선택. (랜덤하게 중심값을 선택)  클러스터 할당: k개 (그림 속에서는 2개)의 중심값과 각 개별 거리를..."
+  },
+  
+  {
+    "title": "회귀로 삼성전자와 현대자동차 주식 수익률 분석하기",
+    "url": "/posts/r-linear-regression2/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-06-14 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "단순 선형회귀를 이용해서 이번에 코스피 지수 수익율과 삼성, 현대자동차 주식 수익율의 상관 괸계를 간단하게 분석해볼까 한다. 데이터는 한국 거래소에서 다운 받을 수 있다.plot우선 그레프를 그릴껀데, plot 그래프를 그리기 쉽게 모든 데이터를 merge를 한다.k_index &amp;lt;- read.csv(&quot;K_index.csv&quot;, header=T, stringsAsFactors = F)s_stock &amp;lt;- read.csv(&quot;S_stock.csv&quot;, header=T, stri..."
+  },
+  
+  {
+    "title": "단순 선형회귀? 회귀란 ?",
+    "url": "/posts/r-linear-regression/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-06-13 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "회귀는 하나의 변수가 나머지 다른 변수들과의 선형적 관계를 갖는가의 여부를 분석하는 하나의 방법이디. 즉 하나의 종속변수와 독립변수 사이의 관계를 명시하는 것을 우리는 회귀라고 한다. 오늘은 회귀가 무엇인지와 구하는 방법에 대해 알아보겠다.회귀독립변수와 종속변수는 아래와 같다.  독립 변수: 종속 변수의 영향을 주는 변수(평수, 학군)  종속 변수: 서로 관계를 가지고 있는 변수들 중에서 다른 변수의 영향을 받는 변수 (집값)회귀식은 \\(y = ax + b\\) 이며, 정말 간단하다. 회귀식을 이용하여 간단하게 예제 문제를 풀어..."
+  },
+  
+  {
+    "title": "파이썬에서의 클래스 생성자와 소멸자",
+    "url": "/posts/python-init-del/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-05-20 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "파이썬에서의 클래스 생성자와 소멸자에 관해 알아보겠습니다. 생성자는 이름에서 알 수 있듯이 객체가 만들어질 때 호출되는 함수를 생성자라고 이야기 하며, 객체가 사라질 때 호출되는 함수를 소멸자라고 이야기합니다.init위에서 생성자가 무엇인지 이야기를 했는데, 생성자는 왜 사용하는 걸까요?생성자는 객체를 초기화 할 때, 자주 사용합니다.class MyClass:        def __init__(self):        self.var = &#39;안녕하세요!&#39;        print(&#39;MyClass 인스턴스 객..."
+  },
+  
+  {
+    "title": "헤드라인 뉴스 키워드으로 바라본 한국 경제 흐름",
+    "url": "/posts/r-keyword-analysis2/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-05-13 02:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅때는 한국 사회의 흐름을 알아보았는데요. 지난 19년을 되돌아보니 사건, 사고가 많았으며, 다시는 일어나면 안되는 사고들과 잊으면 안되는 일들이 많았습니다. 그럼 이번엔 경제를 되돌아보며 한국 경제에는 어떤 일들이 있었는지 알아보겠습니다. 그리고 크롤링은 저번에 했기 때문에 따로 다루지는 않겠습니다.Keyword사회와 마찬가지로 경제도 표를 만들면 아래와 같습니다. 우선 경제하면 가장 많이 떠오르는 것이 부동산이 아닐까 싶습니다.역시나 부동산이나 재건축이 가장 많이 눈에 띄는 것이 보입니다. 2005년 국세청 키워드..."
+  },
+  
+  {
+    "title": "미디어 트렌드 분석?헤드라인 뉴스 키워드 분석(사회)",
+    "url": "/posts/r-keyword-analysis/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-05-10 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "미디어는 한국 사회의 흐름을 압축적으로 담고 있는 Snapshot입니다. 지난 19년, 가장 대표적이고 강력한 미디어, 헤드라인 뉴스로 한국 사회를 되돌아 볼까합니다.이번 포스팅은 사회 부분을 다뤄보겠습니다. SBS뉴스 사회 부분의 헤드라인 부분을 다 크롤링하여 문장을 단어별로 나눈 후 count 하였습니다.Web CrawlingR을 이용하여 크롤링을 하려고 할때 아래와 같은 라이브러리가 필요합니다.# 필요 패키지 설치library(gsubfn)library(stringr)library(XML)크롤링 함수는 아래와 같이 URL..."
+  },
+  
+  {
+    "title": "의사 결정트리로 독일은행의 대출 채무 이행 여부 분석하기(C5.0 Model)",
+    "url": "/posts/R-Decision-Tree-credit/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-04-24 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "의사 결정트리로 독일 은행의 대출 채무 이행 여부를 분석해볼까합니다. 데이터는 여기에서 다운 받을 수 있습니다. 그리고 코드는 여기 GitHub에서 확인 할 수 있습니다.DataSet데이터 라벨은 default 변수이며, yes는 대출금 미상환, no는 대출금을 상환했다는 뜻입니다.대부분의 컬럼은 이름에서부터 알 수 있기 때문에 다루진 않고, 알기 어려운 컬럼에 대해 설명을 조금 설명을 하자면 아래와 같습니다.  checking_balance  예금 계좌  savings_balance 적금 계좌  amount 대출 금액데이터에..."
+  },
+  
+  {
+    "title": "Python 정수 리스트에서 소수만 걸러내기(filter)",
+    "url": "/posts/python-filter/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-04-24 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "파이썬에서 간혹 리스트에 소수만을 걸러 내고 싶을때, 사용되는 filter 함수입니다. 이름에서부터 느껴지듯 뭔가 걸러내기 위해 사용되는 함수라는 것을 알 수 있습니다.filter기본적으로 내장되어 있는 모듈이기 때문에 따로 불러 올 필요는 없습니다. filter를 이용하면 소수를 걸러낼 수 있다고 했는데, 소수는 두개의 수로 못나눈 것을 이야기합니다. 대표적으로 7이 소수가 될 수 있습니다. 소수의 반대는 합성수라고 이야기 할 수 있는데, 합성수의 예로는 6이 있습니다. (2*3=6)def getPrime(x):    for..."
+  },
+  
+  {
+    "title": "파이썬에서 에러가 발생해도 특정 코드는 무조건 실행되게 하기 (try ~ except ~ finally)",
+    "url": "/posts/try-except-finally/",
+    "categories": "Python",
+    "tags": "Python, 문법",
+    "date": "2020-04-19 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "에외처리에도 여러가지 방법이 있는데, 이번에는 실행한 코드가 정상적으로 작동을 하든, 에러가 나던 무조건 실행되는 블록을 추가해보는 것을 해보겠습니다.예외처리 (try ~ except ~ finally)try ~ except ~ finally문법은 아래와 같습니다. try ~ except과 별반 다를 것이 없고 그냥 한줄만 추가하면 되는거라 복잡하지는 않습니다.def my_power():    try:        x = input(&#39;분자 숫자를 입력하세요 ~ &#39;)        y = input(&#39;분모 숫..."
+  },
+  
+  {
+    "title": "파이썬에서 간단하게 예외처리하기(try ~ except ~ else)",
+    "url": "/posts/try-except-else/",
+    "categories": "Python",
+    "tags": "Python, 문법",
+    "date": "2020-04-19 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "파이썬에서 예외처리는 프로그램에서 에러가 발생 했을 때, 에러를 핸들링하는 기능을 이야기합니다.예외처리 (try ~ except ~ else)에러가 나면 보통 프로그램이 종료되기 때문에 큰 문제가 발생하게 됩니다. 예를들면 API를 구현했는데, 어떠한 이유로 에러가 나서 종료가 된다면 큰 문제가 될 수 밖에 없습니다. 그래서 보통 예외처리를 하게 되는데, 예외처리를 하게 된다면 에러가 나는 부분을 제외하고 나머지 프로그램은 정상 작동하기 때문에 문제가 발생되지 않습니다.def my_power():    x =input(&quo..."
+  },
+  
+  {
+    "title": "min/max 알고리즘이란?",
+    "url": "/posts/python-minmax/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "Python, ML, 강화학습",
+    "date": "2020-03-20 18:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "강화학습에서의 자주 거론되는 min/max 알고리즘에 대해 자세히 알아보겠습니다.min/max 알고리즘min/max 알고리즘에서 max는 나를 뜻하는 것이고 min는 적을 이야기 합니다.탐색전에 트리는 맨 아래 단계만 의미있는 수를 가지며, 탐색이 진행되면서 하위에서 상위로 값을 찾아 올라가게 되는데 이때 상위 노드에서 선택되는 값은 현 단계가 max이면 아래에서 최대값을, 현 단계에서 min이면 아래에서 최소값을 선택하게 됩니다.즉, 나(컴퓨터)는 가장 큰 수를 취해야 하며, 상대(사람)은 가장 작은 수를 취해야 합니다.양수..."
+  },
+  
+  {
+    "title": "파이썬으로 원주율 구하기(몬테카를로)",
+    "url": "/posts/python-circumference/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "Python, ML, 강화학습",
+    "date": "2020-03-20 17:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘은 몬테카를로 알고리즘으로 파이썬 원주율을 구해보려고 합니다.원주율가로 길이가 2인 사각형에 내접하는 반지름 길이가 1인 원의 넓이를 몬테카를로 알고리즘으로 구해보겠습니다.원에 무작위로 점을 찍어서 원 안에 들어가는 점의 개수와 사각형 안에 찍히는 전체 점의 개수를 비교합니다. 예를 들면 10개의 점을 무작위로 찍었을 때, 원 안에 찍히는 점의 개수가 7개 라면? 이런식으로 비교하는 거죠.그래서 100개의 점을 무작위로 찍었을 때, 1000, 10000, … 1억개의 점을 무작위로 찍었을 때, 찍는 점의 수가 많아 질수록 ..."
+  },
+  
+  {
+    "title": "강화학습에서의 몬테카를로 알고리즘이란?",
+    "url": "/posts/python-reinforcement/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "Python, ML, 강화학습",
+    "date": "2020-03-20 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "강화 학습에서 빠질 수 없는 몬테카를로 알고리즘에 대해 자세히 알아보겠습니다.몬테카를로 알고리즘몬테카를로 알고리즘의 원리는 멘땅의 해딩을 여러번 반복하다 보니, 답을 알게 되었다 입니다. 확률의 종류는 3가지로 볼 수 있습니다.1. 수학적 확률: 경험을 하지 않고도 미리 알 수 있는 확률로 동전을 던질 때, 앞면이 나올 확률은 굳이 경험하지 않아도 수학적으로 구할 수 있는 확률2. 통계적 확률: 똑같은 조건에서 아주 오랫동안 과거의 경험을 바탕으로 확률을 구하는 방법.예를 들어 비가 올 확률과 같이 과거의 데이터를 바탕으로 얻..."
+  },
+  
+  {
+    "title": "PLSQL에서 예외처리(exception)하기",
+    "url": "/posts/plsql-exception/",
+    "categories": "DB, PLSQL",
+    "tags": "DB, Oracle, PLSQL",
+    "date": "2020-03-20 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "예외처리는 모든 프로그래밍에서 사용되며, PLSQL도 여김 없이 예외처리가 있습니다.  예외처리가 무엇인지와 종류에 대해서 이야기 해보겠습니다.예외(exception)PLSQL에서 예외는 오라클에서 에러나 갔을 때, 엔드유저(프로그램 사용자)의 눈높이를 맞추기 위해 사용하는 문법입니다.예를 들어 홈플러스 계산원이 컴퓨터 프로그램 화면에 고객 번호를 입력하고 해당 고객 정보를 보려고 하는데, 오라클 에러 메시지가 화면에 ORA-0001 Data not found …. 이런식으로 나온다면 사용자는 알아보기 힘드니, 해당 고객은 존..."
+  },
+  
+  {
+    "title": "PLSQL에서 커서(cursor)가 필요한 이유.(메모리에 데이터 올리기)",
+    "url": "/posts/plsql-cursor/",
+    "categories": "DB, PLSQL",
+    "tags": "DB, Oracle, PLSQL",
+    "date": "2020-03-20 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오랜만에 PL/SQL에 관한 포스팅을 쓰네요. 오늘은 PLSQL에서 커서(cursor)라는 것에 대해 알아보겠습니다.커서(cursor)커서는 4단계로 볼 수 있습니다. 커서선언, 커서오픈, 커서패치, 커서닫기가 있습니다.커서는 메모리에 올릴 데이터를 결정하고 메모리에 올린 데이터를 한건씩 가져올때 사용합니다. 커서의 진행 단계는 아래와 같습니다.1.커서선언: 메모리에 올랄 데이터를 결정2.커서오픈: 메모리에 올린 데이터를 쓰기 위해 메모리를 여는 단계3.커서패치: 메모리에 올린 데이터를 한건씩 가져오는 작업4.커서닫기:  메모..."
+  },
+  
+  {
+    "title": "강화학습에서 사용하는 용어와 역사",
+    "url": "/posts/python-minmax-dqn/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "Python, ML, 강화학습",
+    "date": "2020-03-16 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "강화학습은 시행착오를 통해서 환경에 적응하는 학습 방법을 이야기합니다. 지도학습과는 다르게 이 행동이 맞다는 것이 명시적으로 주어지는 것이 아니라, 보상을 통해 행동의 바람직함을 스스로 알아가는 학습 방법입니다.강화학습에서 사용하는 용어강화학습에서는 크게 6가지의 용어가 있습니다.  1. 에이전트: 강화학습을 통해 학습하는 컴퓨터. 학습의 주체  2. 환경: 에이전트가 행동하는 곳  3. 상태: 에이전트가 처한 특정한 상황에 대해 관찰  4. 행동: 에이전트가 어떠한 상태에서 취할 수 있는 행동  5. 보상: 행동에 대한 보상..."
+  },
+  
+  {
+    "title": "네이버에서 이미지 크롤링하기",
+    "url": "/posts/python-web6/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법, 웹크롤링",
+    "date": "2020-03-15 21:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅에서는 신문사를 크롤링하는 것을 해봤는데, 이번에는 네이버에서 이미지를 크롤링하는 것을 해볼까합니다.이미지 크롤링이미지 크롤링할 때 필요한 모듈은 아래와 같습니다.import urllib.requestfrom bs4 import BeautifulSoupfrom selenium import webdriverfrom selenium.webdriver.common.keys import Keys  # 웹 애플리케이션의 테스트를 자동화하기 위한 프레임 워크# 손으로 마우스 클릭해서 데이터를 검색하고 스크롤링 할 수 있다imp..."
+  },
+  
+  {
+    "title": "파이썬으로 모든 신문사 웹스크롤링 스크립트 만들기",
+    "url": "/posts/python-web5/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법, 웹크롤링",
+    "date": "2020-03-15 20:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번에 중앙일보와 한계례 신문사를 저번에 웹 스크롤링하는 것을 했습니다. 두번정도 해보니까 이제 슬슬 감이 잡히지 않던가요 ? 링크랑 기사내용 태그만 확인하면 스크롤링 되는 것을 확인 했으니, 이번엔 그냥 전체 신문사에서 선택해서 스크롤링하는 스크립트를 짜볼까합니다.웹 스크롤링 함수 구현우선 자신의 컴퓨터 user-agent를 확인해야합니다. 여기를 눌러 자신의 agent를 꼭 확인합니다.우리는 메인 함수와 서브 함수 두가지를 우선 만들어야 합니다. 메인 함수는 스크롤링한 text를 리턴하는 함수를 만들고, 서브 함수는 두 가..."
+  },
+  
+  {
+    "title": "J사 신문사 웹스크롤링 하기",
+    "url": "/posts/python-web4/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법, 웹크롤링",
+    "date": "2020-03-15 19:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번에 H사 신문사를 웹 스크롤링해봤습니다. 신문사마다 주소가 다르기 때문에 이번에는 J사 주소를 가지고 와서 저번이랑 똑같이 웹 스크롤링을 해보도록 하겠습니다.J사 웹스크롤링우선 중앙일보 신문사 링크를 가져와 보겠습니다.저번과 마찬가지로 메모장에 복붙하면 암호화 된 주소 를 확인할 수있습니다.import urllib.requestfrom bs4 import BeautifulSoup    search_text = input(&quot;검색어를 입력하세요 : &quot;).encode(&quot;utf-8&quot;)search..."
+  },
+  
+  {
+    "title": "H사 신문사 웹스크롤링 하기-3(검색어 입력받기)",
+    "url": "/posts/python-web3/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법, 웹크롤링",
+    "date": "2020-03-15 18:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅에서는 기사 제목과 내용을 스크롤링하는 것을 했는데, 이번에는 스크롤링 하려고 검색어을 입력받아 자동으로 스크롤링하는 것을 짜보겠습니다.H사 웹 스크롤링저번에 가져온 암호화 된 주소를 살펴보면 아래와 같은데, 여기서 검색어를 삽입해야합니다.def han_article():    # 모듈 임포트    import urllib.request    from bs4 import BeautifulSoup    import re    import os    # 검색어 입력    search_text = input(&quot;검..."
+  },
+  
+  {
+    "title": "H사 신문사 웹스크롤링 하기-2(기사 내용)",
+    "url": "/posts/python-web2/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법, 웹크롤링",
+    "date": "2020-03-15 17:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "지난 포스팅에서 기사 제목만을 스크롤링하는 것을 했는데, 이번에는 조금 더 나아가서 기사 내용까지 스크롤링해보도록 하겠습니다.H사 웹 스크롤링 (기사 내용 스크롤링)기사 내용을 스크롤링하기 위해 기사를 클릭 후 저번과 마찬가지로 F12를 눌러 기사 내용을 클릭합니다.그럼 기사 내용이 div 태그에 text 클래스에 기사 내용이 있음을 확인할 수 있습니다. 여기서 기사 내용만을 클릭하면 언제 올라온 기사인지 모르니 기사 날짜도 함께 스크롤링합니다. 기사 날짜는 p 태그에 data-time 클래스가 있습니다.import urlli..."
+  },
+  
+  {
+    "title": "H사 신문사 웹스크롤링 하기-1(기사 제목)",
+    "url": "/posts/python-web1/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-03-15 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "워드 클라우드나 특정 데이터를 수집하기 위해 자주 사용되는 웹 스크롤링에 대해 한번 알아보겠습니다. 보통 웹 스크롤링 할때는 a태그에 있는 것을 긁어서 사용합니다. 저는 오늘 특정 신문사에서 기사를 긁어오는 것을 한번 해보겠습니다.H사 웹 스크롤링 (기사 제목만 스크롤링)신문사 홈페이지로 들어가서 찾고자 하는 것을 검색한 후 url을 가져오겠습니다.여기서 알아야 할 점은 주소가 위 그림처럼 뜨지만, 주소를 메모장에 복붙하면 아래처럼 암호화 된 주소가 보여집니다. 그렇기 때문에 직접 URL를 건들어서 웹 스크롤링을 하기는 힘들다..."
+  },
+  
+  {
+    "title": "2017 카카오 신입 공채 블라인드 시험문제(LRU알고리즘)",
+    "url": "/posts/algorithm-kakao2/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-03-15 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "두번째 카카오 알고리즘을 풀어보겠습니다.LRU알고리즘(난이도 하)지도개발팀에서 근무하는 제이지는 지도에서 도시 이름을 검색하면 해당 도시와 관련된 맛집 게시물들을 데이터베이스에서 읽어 보여주는 서비스를 개발하고 있다. 이 프로그램의 테스팅 업무를 담당하고 있는 어피치는 서비스를 오픈하기 전 각 로직에 대한 성능 측정을 수행하였는데, 제이지가 작성한 부분 중 데이터베이스에서 게시물을 가져오는 부분의 실행시간이 너무 오래 걸린다는 것을 알게 되었다. 어피치는 제이지에게 해당 로직을 개선하라고 닦달하기 시작하였고, 제이지는 DB 캐..."
+  },
+  
+  {
+    "title": "2017 카카오 신입 공채 블라인드 시험문제(비밀지도)",
+    "url": "/posts/algorithm-kakao1/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-03-15 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "옛날 카카오 블라인드 알고리즘 문제를 한번 오랜만에 풀어볼까합니다.비밀지도(난이도 하)네오는 평소 프로도가 비상금을 숨겨놓는 장소를 알려줄 비밀지도를 손에 넣었다. 그런데 이 비밀지도는 숫자로 암호화되어 있어 위치를 확인하기 위해서는 암호를 해독해야 한다. 다행히 지도 암호를 해독할 방법을 적어놓은 메모도 함께 발견했다.지도는 한 변의 길이가 n인 정사각형 배열 형태로, 각 칸은 “공백”(“ “) 또는 “벽”(“#”) 두 종류로 이루어져 있다.전체 지도는 두 장의 지도를 겹쳐서 얻을 수 있다. 각각 “지도 1”과 “지도 2”라..."
+  },
+  
+  {
+    "title": "파이썬으로 탐욕 알고리즘 구현하기(동전)",
+    "url": "/posts/ALGORITHM-coin-greedy/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-03-14 19:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "탐욕 알고리즘은 당장 눈앞의 이익만 추구하는 것을 이야기 하며, 먼 미래를 내다 보지 않고 지금 당장의 최선이 무엇인가를 판단하는 알고리즘입니다.그럼 탐욕 알고리즘을 이용하여 금액과 화폐가 주어졌을 때 가장 적은 화폐로 지불하는 것을 구현해도록 하겠습니다.예를 들어 액수를 362 라고 입력하고 화폐단위를 1,50,100 이라고 입력했을 때 결과 값이 100원 3개, 50원 1개, 1원 12개의 값이 나와야 합니다.def coinGreedy():     money = int(input(&#39;액수입력 : &#39;))    c..."
+  },
+  
+  {
+    "title": "파이썬으로 버블정렬 알고리즘 구현하기",
+    "url": "/posts/ALGORITHM-bubble_search/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2020-03-14 18:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "버블정렬은 두 인접한 원소를 검사하여 정렬하는 방법입니다.위키백과 예제파이썬으로 구현하자면 아래와 같이 구현할 수 있습니다.def bubble_search(data):    for i in range(len(data)):        for j in range(len(data)-1):            if data[j] &amp;gt; data[j+1]:                (data[j],data[j+1]) = (data[j+1],data[j])            print(&#39;i=&#39;,i,&#39;j..."
+  },
+  
+  {
+    "title": "파이썬에서 언더바(_)를 사용하는 경우",
+    "url": "/posts/python_val_pass/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-03-14 17:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "파이썬 코드를 가끔 보다보면 _ 같은것을 볼 수 있습니다. 이 언더바(_)는 언제 사용하는 걸까요?언더바(_)를 사용하는 경우언더바를 사용하는 경우는 주로 아래의 4가지 경우입니다.  인터프리터에서 마지막 값을 저장할 때  값을 무시하고 싶을 때  변수나 함수명에 특별한 의미를 부여하고 싶을 때  숫자 또는 문자값의 자릿수 구분을 위한 구분자로써 사용할 때우선 첫번째, 인터프리터에서 마지막 값을 저장 할때 사용하는데, 아래와 같이 사용할 수 있습니다.그래서 이런 출력도 가능합니다.두번째는 값을 무시하고 싶을 때 사용하는데, f..."
+  },
+  
+  {
+    "title": "검색 알고리즘? 파이썬으로 이진탐색 구현하기",
+    "url": "/posts/ALGORITHM-binary_search/",
+    "categories": "Algorithm, Top_Post",
+    "tags": "",
+    "date": "2020-03-14 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이진 검색 알고리즘(binary search algorithm)은 오름차순으로 정렬된 리스트에서 특정한 값의 위치를 찾는 알고리즘입니다. 처음 중간의 값을 임의의 값으로 선택하여, 그 값과 찾고자 하는 값의 크고 작음을 비교하는 방식입니다.data = [ 1, 7, 11 , 12, 14 , 23, 33, 47, 51, 64, 67, 77, 130, 672, 871 위와 같은 데이터가 있을 때, 이진 탐색을 구현하면 아래와 같습니다.def binary_search(in_data, input_num):        in_data ..."
+  },
+  
+  {
+    "title": "파이썬의 클래스 상속과 super함수",
+    "url": "/posts/python-father-child/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-03-14 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "다른 언어와 마찬가지로 파이썬에도 상속 개념이 존재합니다. 클래스 상속을 사용하게 되면 반복적으로 코드를 짜지 않어도 되기 때문에 많이 사용합니다.상속상속은 클래스들끼리 기능을 서로에게 물려주는 것이기 때문에 같은 코드를 반복해서 짜지 않아도 됩니다.상속을 받기 위해 클래스 두개를 작성하고 자식 클래스에 상속시켜보겠습니다.class father:    def base_method(self):        print(&quot;hello~&quot;)        class child(father):    passfather=f..."
+  },
+  
+  {
+    "title": "파이썬 static method (정적 메소드)",
+    "url": "/posts/python-class-static/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-03-14 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "정적 메소드를 사용하여 클래스가 같은 메모리를 바라보는 것을 해보도록 하겠습니다.정적 메소드 (static method)정적 메소드는 self를 매개변수로 받지 않는 메소드를 말하며 여러 인스턴스가 공유해서 사용하는 메소드입니다.저번에 만든 코드를 이용하여 예를 들어보겠습니다.class gun():    # 클래스가 실체화 될때, 바로 작동하는 메소드(함수)    def __init__(self): # 총을 만든다. (실체화)        # 총알을 0으로 설정         self.bullet = 0    # class에는..."
+  },
+  
+  {
+    "title": "파이썬 클래스(class)란?",
+    "url": "/posts/python-class/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-03-13 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "파이썬에서의 클래스 정의와 구현하는 법에 대해 알아보겠습니다.클래스(class))사실 클래스(class)하면 가장 많이 비유로 사용되는 붕어빵 틀과 붕어빵이 있는데, 이 부분은 그냥 패스하고 직접 구현하면서 알아보도록 하겠습니다. 우선 총이라는 클래스를 만들어 보겠습니다.class gun():    # 클래스가 실체화 될때, 바로 작동하는 메소드(함수)    def __init__(self): # 총을 만든다. (실체화)        # 총알을 0으로 설정         self.bullet = 0위에 있는 class가 기본 ..."
+  },
+  
+  {
+    "title": "파이썬 패키지(package)란?",
+    "url": "/posts/python-package/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-03-13 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "파이썬에서 패키지 사용하는 법에 대해 알아보겠습니다.패키지(package)우리가 음악 파일을 저장할때도 장르별로 폴더를 만들어서 별도로 저장하듯이 파이썬 모둘도 음악처럼 갯수가 많아지면 폴더(모듈 꾸러미) 별로 관리를 해야 관리가 편해지는데 이 폴더(디렉토리)가 패키지입니다.평범한 폴더가 패키지로 인정을 받으려면 반드시 갖고 있어야 하는 파일은 __init__파일입니다. __init__파일은 대게 비워두는 것이 보통인데 이 파일을 손데는 경우는 __all__변수를 조정할 때 사용합니다. 즉, 패키지로부터 반입할 목록을 정의할 ..."
+  },
+  
+  {
+    "title": "파이썬 모듈(import)사용하기",
+    "url": "/posts/python-import/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-03-13 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "파이썬에서 모듈(import)을 이해하고 사용해보도록 하겠습니다.모듈(import) 이란?이미 만들어져 있고 안정성이 검증된 함수들을 성격에 맞게 하나의 파일로 묶어놓은 것들을 모듈이라고 합니다. 외부의 모듈을 사용하려면 이 모듈을 먼저 코드로 가져와서 자유롭게 사용할 수 있도록 해야하는데 이런일을 파이썬에서는 모듈을 import라고 합니다.import time print(&#39;5초간 프로그램을 정지합니다 &#39;)time.sleep(5)또는 아래와 같이 사용할 수 있습니다.같은 위치에 test3.py 라는 이름으로 아래..."
+  },
+  
+  {
+    "title": "파이썬에서 지역변수와 전역변수 사용하기",
+    "url": "/posts/python-global/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-03-12 18:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이번에 파이썬에서 지역변수와 전역변수를 사용하는 것에 대해 배워보겠습니다.지역변수와 전역변수변수는 자신이 생성된 범위(코드 블럭)안에서만 유효합니다. 함수안에서 만든 변수는 함수 안에서만 살아 있다가 함수 코드의 실행이 종료되면 그 생명을 다합니다. 이것을 지역변수라고 합니다.이와는 반대로 함수 외부에서 만든 변수는 프로그램이 살아 있는 동안에 함께 살아 있다가 프로그램이 종료가 되면 같이 소멸합니다. 이렇게 프로그램 전체를 유효범위로 가지는 변수를 전역변수라고 합니다.param = 10strdata = &#39;전역변수&#3..."
+  },
+  
+  {
+    "title": "파이썬 멤버체크(in)으로 특정 단어 개수 세기",
+    "url": "/posts/python-in-winter/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2020-03-12 17:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "파이썬에서 특정 단어가 있는지 확인하기 위해 자주 쓰이는 함수 in입니다. 아마 for 사용할때 더 많이 사용해본 적 있을꺼예요. 이 맴버 함수에 대해 자세히 알아보겠습니다.list안에 있는지 없는지 확인하기in을 사용하여 list안에 특정 숫자나 문자열이 있는지 체크해보겠습니다.listdata =[1, 2, 3, 4]ret1 = 5 in listdata    # Falseret2 = 4 in listdata    # Trueprint(ret1); print(ret2)strdata = &#39;abcde&#39;ret3 = &..."
+  },
+  
+  {
+    "title": "파이썬으로 2진수 8진수 16진수 구하기",
+    "url": "/posts/python-bin-oct-hex/",
+    "categories": "Program Language, Python",
+    "tags": "Python",
+    "date": "2020-03-12 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "정수형(integer)이란 말 그대로 정수를 뜻하는 자료형을 말합니다.a = 123 b = -123c = 0일반 프로그래밍에서 지원하는 정수형 상수의 범위는 -214747367 ~ 2147483647인데 파이썬은 메모리가 허용하는 범위내에서 지원 가능한 수를 사용할 수 있습니다.2진수, 8진수, 16진수를 사용하는 이유  컴퓨터가 2진수를 사용하는 이유는 무엇일까요 ?전기적 신호로 의미를 전달할 수 있는 가장 간단한 방법이기 때문입니다. 컴퓨터가 의미를 구분할 수 있는 최소 단위가 on/off이기 때문에 컴퓨터는 2진수 0,1..."
+  },
+  
+  {
+    "title": "의사 결정트리와(Decision Tree)로 심장질환 데이터 분석하기",
+    "url": "/posts/R-Decision-Tree-rpart/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-03-12 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "실제 심장질환 데이터를 분석하여 심장질환에 있어 가장 영향력이 큰 변수를 찾아보도록 하겠습니다. 데이터 상세 설명은 여기에서 볼 수 있으며, 데이터는 여기에서 다운 받을 수 있습니다. 그리고 코드는 여기 GitHub에서 확인 할 수 있습니다.DataSet데이터 셋 설명은 아래와 같습니다.  trestbps ( resting blood pressure ) : 안정시 혈압(수축기 고혈압)  chol (serum cholesterol) : 고지혈증  fbs ( fasting blood sugar larger 120mg/dl (1 t..."
+  },
+  
+  {
+    "title": "의사 결정트리와(Decision Tree)엔트로피(entropy)",
+    "url": "/posts/R-Decision-Tree-entropy/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-03-12 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "의사 결정트리에 대해 알아볼껀데, 의사 결정트리가 어떤 상황에서 사용되는지 구현하려면 무엇이 필요한지에 대해 알아보겠습니다.의사 결정트리(Decision Tree)회귀식을 세울 때 중요한 변수(컬럼)들을 선택해야 하는 상황에서 어떠한 컬럼이 중요한지 판단이 안설때, 의사 결정트리를 이용하면 중요한 변수를 골라낼 수 있습니다.예를 들어 회사 지원자에게 떨어진 이유를 명확히 설명해줘야 하는 경우나 은행에서 대출을 해줄 때, 대출을 해줄지 말지의 여부를 기업 데이터를 보고 결정해야 하는 경우 등이 있습니다. 또 의학면에서는 질병에 ..."
+  },
+  
+  {
+    "title": "나이브 베이즈(Naive Bayes)자동화 스크립트 만들기",
+    "url": "/posts/R-NB-Naive-Bayes-auto/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-02-13 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "knn에 이어서 나이브 베이도 자동화 스크립트로 만들어보겠습니다.Naive Bayes 자동화 스크립트우선 파일명을 입력 받고, 컬러명이 있는지에 관한 유무와 라벨이 위치한 번호 마지막으로 제거할 컬럼의 위치를 입력 받아보겠습니다. 추가로 if문을 돌려서 패키지 설치가 되어 있으면 패스하고 아니면 설치하도록 하겠습니다.if (length(setdiff(packages, rownames(installed.packages()))) &amp;gt; 0) {    install.packages(setdiff(packages, rowna..."
+  },
+  
+  {
+    "title": "나이브 베이즈(Naive Bayes)를 이용한 영화 장르 분류",
+    "url": "/posts/R-NB-Naive-Bayes-movie/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-02-12 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "나이브 베이즈를 활용한 영화 장르 분류를 이번에 해보겠습니다. 예전에 포스팅했던 knn과 마찬가지로 그리 어렵지도, 코드가 길지도 않아서 한두번 해보면 금방 익숙해 질꺼 같습니다.DataSet데이터는 선호하는 영화장르 데이터를 사용했으며, 데이터는 여기에서 다운받아 보실 수 있습니다. 물론 포스팅에서 사용된 코드는 제 Github에서 전부 보실 수 있습니다.# 패키지 설치 install.packages(&quot;e1071&quot;)library(e1071)movie &amp;lt;- read.csv(&quot;movie.c..."
+  },
+  
+  {
+    "title": "나이브 베이즈(Naive Bayes) 확률로 인한 데이터 분류(조건부확률과 베이즈 정리)",
+    "url": "/posts/R-NB-Naive-Bayes/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-02-11 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘부터 나이브 베이즈(Naïve Bayes)에 대해 알아보겠습니다. 나이브 베이즈는 확률을 기반으로 한 머신러닝의 한 알고리즘입니다. 현재까지도 유용하고 많이 사용되고 있어서 알아둬야합니다.확률로 인한 데이터 분류기상학자가 날씨예보를 할 때, 일반적으로 “비올 확률 70%” 라는 용어를 사용해 예측을 합니다. 여기서 나온 70%는 과거의 사건 데이터를 사용한 것이며, 과거에 이런 경우가 10번 중 7번은 비가 왔음을 의미하는 것입니다. 베이즈기법 기반인 분류기는 분류되지 않은 데이터를 분류기가 분류할때, 새로운 속성에 대한 ..."
+  },
+  
+  {
+    "title": "간단한 K-Nearest Neighbors(Knn)자동화 스크립트 만들기",
+    "url": "/posts/R-knn-function/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-02-10 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이제 knn알고리즘이 무엇인지나, 코드짜는 것에 익숙해졌는데, 앞으로 다양한 데이터를 만나더라도 손쉽게 스크립트 하나로 knn을 돌리기 위해 간단하게 만들어보겠습니다.knn 자동화 스크립트우선 파일명을 입력 받고, 컬러명이 있는지에 관한 유무와 라벨이 위치한 번호 마지막으로 제거할 컬럼의 위치를 입력 받아보겠습니다.library(data.table)library(class)input_table &amp;lt;- readline(&#39;csv파일을 입력하세요. ex) emp.csv : &#39;)input_header &amp..."
+  },
+  
+  {
+    "title": "K-Nearest Neighbors(Knn)적잘한 k값 알아내는 방법",
+    "url": "/posts/R-knn-HMEQ/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-02-09 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘은 적절한 k값을 알아내는 방법에 대해 이야기 해보겠습니다. 여태껏 이 블로그에서 다양한 데이터를 사용하여 knn 분류를 해보았는데, 그때마다 k값을 다르게 하면 매번 값이 달라진다는 것을 어렴풋 다들 알고 계실꺼라 생각합니다. 그렇다면 적절한 k값을 찾기 위해서는 어떻게 해야댈까요 ? 오늘은 그 방법에 대해 알아보겠습니다. 마찬가지로 데이터는 데이터는 여기에서 볼 수 있으며 전체 코드 역시 GitHub에서 보실 수 있습니다.DataSet이번 데이터는 부도 데이터이며, load 후에 결측값과 공백값을 제거하겠습니다.HMEQ..."
+  },
+  
+  {
+    "title": "K-Nearest Neighbors(Knn)을 이용하여 유방암 분류하기",
+    "url": "/posts/R-knn-wisc-bc-data/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2020-02-08 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘은 knn을 사용하여 유방암 분류를 해볼까합니다. 데이터는 데이터는 여기에서 볼 수 있으며 전체 코드 역시 GitHub에서 보실 수 있습니다. 월래 오늘 적절한 k값을 알아내는 것에 관려하여 포스팅을 할 예정이였으나, R에서 knn 관련 데이터 예제로 가장 많이 사용하는 것중에서 하나만 집고 넘어가는 것도 나쁘지 않고 해서 오늘은 유방암 데이터를 가지고 분류를 해보도록 하겠습니다.DataSet우선 데이터를 load 해보겠습니다.wisc&amp;lt;-read.csv(&quot;wisc_bc_data.csv&quot;,str..."
+  },
+  
+  {
+    "title": "파이썬과 텐서플로우의 차이",
+    "url": "/posts/tensorflow-vs-python/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "ML, Python, 신경망",
+    "date": "2020-02-07 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "간단하게 텐서플로우와 파이썬 문법 비교 해보겠습니다.Python ? Tensorflow우선 간단하게 1에서 5까지의 숫자를 출력해보도록 하겠습니다.x = 0for i in range(5):	x = x+1	print(x)파이썬으로 하면 위와 같으며, Tensorflow로 하면 아래와 같습니다.x = tf.Variable(0, name=&#39;x&#39;)model = tf.global_variables_initializer()	with tf.Session() as sess:    for i in range(5):        ..."
+  },
+  
+  {
+    "title": "Go에서if와 짧은 명령 사용하기",
+    "url": "/posts/go-if-else/",
+    "categories": "Program Language, Go",
+    "tags": "",
+    "date": "2020-02-06 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이번엔 Go에서 if문을 사용해보겠습니다. Go가 설치되어 있지 않지만 실행을 해보고 싶다면, 여기를 클릭해주세요.Go ifif문 또한C와 Java와 비슷합니다. 조건 표현을 위해 ()는 사용하지 않습니다. 하지만 반드시 실행문을 위한 {}는 반드시 작성해야합니다.package mainimport (	&quot;fmt&quot;	&quot;math&quot;)func sqrt(x float64) string {	if x &amp;lt; 0 {		return sqrt(-x) + &quot;i&quot;	}	return fmt.S..."
+  },
+  
+  {
+    "title": "Go에서 While 사용하기",
+    "url": "/posts/go-while/",
+    "categories": "Program Language, Go",
+    "tags": "",
+    "date": "2020-02-05 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이전에 Go for문에 대해서 알아봤는데 for문과 비슷하게 조건문만 표시하면 C언에서 while을 사용하듯이 사용할 수 있습니다. 오늘은 이 while문에 대해 알아보겠습니다. Go가 설치되어 있지 않지만 실행을 해보고 싶다면, 여기를 클릭해주세요.Go whileGo에서 while은 for문 처럼 조건문만 표시하면 사용 할 수 있습니다.package mainimport &quot;fmt&quot;func main() {	sum := 1	for sum &amp;lt; 1000 {		sum += sum	}	fmt.Println(..."
+  },
+  
+  {
+    "title": "Go 반복문-for문",
+    "url": "/posts/go-for/",
+    "categories": "Program Language, Go",
+    "tags": "GO",
+    "date": "2020-02-04 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘은 GO 반복문과 조건문에 대해 배워보도록 하겠습니다. 예전 포스팅에서 한번 언급 하긴 했었는데 GO에서 반복문은 for문 밖에 없다고 이야기 했었습니다. 오늘은 그 for문에 대해 알아보도록 하겠습니다. Go가 설치되어 있지 않지만 실행을 해보고 싶다면, 여기를 클릭해주세요.Go 반복문(for문)Go 언어는 반복문이 for문 밖에 없으며 기본적인 for반복문은 c와 java와 거의 유사합니다. 다른점이 있다면 소괄호가 필요하지 않다는 점뿐입니다. 하지만 실행문을 위한 중괄호 {}는 필요합니다.package mainimpo..."
+  },
+  
+  {
+    "title": "텐서플로우 사용하기, Hello, Tensorflow! (실행 구조와 구구단 출력)",
+    "url": "/posts/ml-tensorflow-session/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "",
+    "date": "2020-02-03 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "언어를 새로 배우거나 무언가를 새로 배울 때, 우리는 가장 먼저 Hello, world! 를 가장 먼저 찍어냅니다. Tensorflow 을 포스팅 하는 기념으로 Hello, Tensorflow!를 찍어보겠습니다.Tensorflow 기본 구조우선 텐서플로우가 설치가 안되어 있다면 아래와 같이 설치 해주세요.pip install tensorflow 설치가 되었다면 모듈을 가져와서 tf를 호출합니다.import tensorflow as tf 그리고 그래프를 실행할 세션을 구성합니다. (참고로 포스팅에서 사용하는 tf는 1.x 버전입..."
+  },
+  
+  {
+    "title": "텐서플로우란?",
+    "url": "/posts/ml-tensorflow/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "",
+    "date": "2020-02-02 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "머신러닝 개발자들이 많이 사용하는 Tensorflow에 대해서 간단하게 알아보겠습니다.요즘에는 텐서플로우외에도 케라스나 파이토치등 다양하지만 저는 아직 텐서플로우가 편해서 텐서플로우를 쓰고 있습니다. 맨 처음 머신러닝을 접할 때, 텐서플로우로 접했기 때문인거 같습니다.같이 공부했던 사람들 중 케라스나 파이토치로 시작한 사람들이 꽤 있었는데 케라스나 파이토치로 시작한 사람들은 텐서플로우가 조금 더 어렵다고 하더라구요. 그래서 커뮤니티 사이에서 가끔 텐서플로우로 먼저 시작하라는 글이 보이기도 하더라구요.이 글 쓴 시점에서는 현재 ..."
+  },
+  
+  {
+    "title": "오버피팅 억제를 위한 방법! Dropout!",
+    "url": "/posts/ml-dropout-overfitting/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "ML, Python, 신경망",
+    "date": "2020-02-01 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오버피팅을 억제하기 위한 방법으로 Dropout에 대해 알아보도록 하겠습니다. 오버피팅은 학습을 시키면서 흔히 접할 수 있는 문제이며, 풀어야 할 문제 중 하나 입니다. 오늘은 이러한 오버피팅에 대한 문제를 바로 잡을 수 있는 방법 중 가장 간단한 방법에 대해 알아보겠습니다.DropoutDropout은 오버피팅을 억제하기 위해 뉴런을 임의로 삭제하면서 학습하는 방법입니다.신경망 전체를 학습시키지 않고 일부 노드만 무작위로 골라 학습 시키는 방법입니다. 학습하는 중간중간 일정 비율로 노드들을 무작위로 골라 출력을 0으로 만들어 ..."
+  },
+  
+  {
+    "title": "Batch Nomalization 학습 실제 사용할때 주의 할 점",
+    "url": "/posts/ml-Batch-Nomalization/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "ML, Python, 신경망",
+    "date": "2020-02-01 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘은 Batch Nomalization 학습 실제 사용할때 주의 할 점과 가중치 초기화의 중요성에 대해 같이 보도록 하겠습니다.가중치 초기화의 중요성가중치 초기값을 적절하게 설정하면 각 층의 활성화 값의 분포가 적당히 퍼지는 효과가 발생합니다. 그리고 활성화 값이 적절하게 분포하게 되면 학습이 잘되고 정확도가 높아집니다.아래의 그림은 학습이 잘 안되는 가중치 분포의 예입니다.아래의 그림은 학습이 잘된 경우입니다.한 눈에 봐도 고르게 잘 된것을 알 수 있습니다.가중치 초기값 선정하는 5가지 방법가중치 초기값을 선정하는 방법에는..."
+  },
+  
+  {
+    "title": "파이썬 클래스로 신경망 구현하기(cross_entropy, softmax, Softmax With loss )",
+    "url": "/posts/ml-class-softmax/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "ML, Python, 신경망",
+    "date": "2020-01-18 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅에서는 forward와 backward 그리고 활성화 함수인 Relu함수를 클래스로 구현해보았습니다. 이번에는 cross entropy와 softmax도 함께 구현해보도록 하겠습니다.cross entropy 와 softmax보통 신경망에서 분류할 때, softmax를 사용하며, softmax는 신경망의 출력층 마지막에서 사용합니다. softmax에 관한 더 자세한 설명은 여기서 확인하실 수 있습니다. softmax와 함께 오차 함수로 cross entropy함수를 사용하는데, cross entropy error는 줄..."
+  },
+  
+  {
+    "title": "파이썬 클래스로 신경망 구현하기(relu,forward,backward)",
+    "url": "/posts/ML-relu-class-2layer/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "ML, Python, 신경망",
+    "date": "2019-12-25 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅 때, 순전파와 역전파 원리를 간단하게 보고, class를 만들어봤습니다. 이번에는 활성화 함수를 넣어 조금 그럴듯한 신경망을 만들어보도록 하겠습니다. 활성화 함수를 사용하지 않고 열심히 신경망만 깊게 쌓기만 하면 깊게 쌓는 의미도 없을 뿐더라 그냥 단층 신경망이라도 봐도 무방합니다. 그렇기 때문에 꼭 넣어주어야 깊게 쌓는 의미가 있습니다.Relu Class 만들기.저번 포스팅에서 만들었던 Affine class는 냅두고 Relu(렐루) 클래스를 한번 만들어 보겠습니다. Relu 함수는 예전 포스팅에서 한번 다루었는..."
+  },
+  
+  {
+    "title": "Go언어 문자열 반환하는 함수 만들기",
+    "url": "/posts/GO-package-import/",
+    "categories": "Program Language, Go",
+    "tags": "",
+    "date": "2019-12-18 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘은 GO언어에서 Package, Exported names, 함수에 대해 알아보도록 하겠습니다. 함수는 Python과 비슷해서 어렵지는 않고, 하면서 같이 패키지나 임포트도 잠시 훝어보는 시간을 가져보겠습니다. GO언어가 깔려 있다면 .go 파일을 만들고, 만약에 블로그 예제와 함께 테스트로 돌려보고 싶다면 여기를 눌러 GO놀이터를 이용하여 따라하시면 됩니다.패키지(Package)GO언어의 모든 프로그램은 패키지로 구성되어 있습니다. 또한 main 패키지에서부터 실행을 시작하며, 패키지 이름은 디렉토리 경로의 마지막 이름을..."
+  },
+  
+  {
+    "title": "논문요약, Predicting remaining useful life of rolling bearings based on deep feature representation and long short-term memory neural network",
+    "url": "/posts/Deep-feature-lstm-rul/",
+    "categories": "Machine Learning, paper",
+    "tags": "",
+    "date": "2019-12-17 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "Predicting remaining useful life of rolling bearings based on deep feature representation and long short-term memory neural networkPaper URL: https://journals.sagepub.com/doi/full/10.1177/1687814018817184논문 이름이 엄청 길지만 사실 그렇게 심오하지 않는 논문에 대해 요약 리뷰를 해보겠습니다. 이 논문은deep feature extraction에 관련된 논문입니다. 신..."
+  },
+  
+  {
+    "title": "Oracle 조인(join)의 종류(equi join, 1999 ANSI)",
+    "url": "/posts/SQL-Oracle-join-8/",
+    "categories": "DB, SQL",
+    "tags": "DB, Oracle, SQL",
+    "date": "2019-12-11 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘부터는 오라클 조인에 대해 알아보도록 하겠습니다. 오라클 조인문법은 어떻게 쓰느냐에 따라 성능 차이가 많이 나기도 하며, 상당히 자주 사용하기 때문에 꼭 알아두어야 합니다. 우선 오늘은 간단하게 오라클 조인의 종류와 간단한 조인 문법에 대해 알아보도록 하겠습니다.Oracle join 이란 ?Oracle이 무엇인지는 아마 잘 알고 계실껍니다. 오라클은 오라클이라는 회사에서 판매하는 제품 이름입니다. 요즘은 DB제품이 다양하여 꼭 무거운 오라클이 아니더라도 다른 여러 제품을 컨택하여 사용하는 회사들이 많습니다. 여태까지 포스팅..."
+  },
+  
+  {
+    "title": "파이썬 while loop문을 사용하여 log함수 구현하기",
+    "url": "/posts/PYTHON-while-loop/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2019-12-06 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "for문과 if문은 가장 흔하고 많이 쓰이는 문법이지만, while문도 자주 쓰이는 문법 중 하나입니다. 문법도 어렵지 않아서 금방 익힐 수 있습니다. while문이 가장 쓰기 편한 문법 중 하나인데, 그 이유는 조건이 참일 때, 실행시킨다던가, 아니면 무한루프로 계속 돌리다가 어느 순간에 멈추는 등 편리하기 때문입니다.whilewhile문 구조는 아래와 같습니다.위 구조대로 간단하게 숫자 하나를 입력 받아서 입력받은 숫자까지 출력하는 것을 하나 출력해보겠습니다.a = int(input(&quot;숫자를 입력하세요 &quot;..."
+  },
+  
+  {
+    "title": "파이썬 for문에서 if문 안쓰고 특정 블럭만 실행하기(continue,break)",
+    "url": "/posts/PYTHON-for-continue-break/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2019-12-05 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "for문 같은 반복문에서 쓸 수 있는 문법들이 꽤나 많은데요, 오늘은 반복문이 실행되는 동안에 다른 코드 블럭만 실행되게 할 때, 사용하는 문법에 대해 알아보도록 하겠습니다.continue 문continue문은 반복문이 실행되는 동안 특정 코드 블럭을 실행하지 않고 다른 블럭만 실행하게 할 때 사용하는 문법입니다.예를 들어가면서 continue문을 작성해보겠습니다. 숫자 1부터 10까지 출력하는데 중간에 5가 나오지 않게 할때, continue문을 사용한다면 아래와 같습니다.for i in range(1,11):  if i =..."
+  },
+  
+  {
+    "title": "GO언어 변수 선언하기",
+    "url": "/posts/GO-Function/",
+    "categories": "Program Language, Algorithm",
+    "tags": "",
+    "date": "2019-12-05 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "GO언어의 구문과 자료형 그리고 변수에 대해 알아보도록 하겠습니다. GO언어는 언어의 장벽이 그렇게 높지 않기 때문에 금방 배우실 수 있습니다. 특히나 C언어를 주로 이용하여 개발을 하셨던 분이거나 익숙하시다면 더욱이 GO언어가 쉽다고 느낄 수 있습니다.GO언어의 구문주석 처리 할때, 한줄 주석은 (//), 여러 줄 주석은 (/* */)으로 합니다. 들여쓰기는 일반적으로 탭을 사용하지만 이부분은 크게 신경쓰지 않으셔도 됩니다. 그 이유는 Format이라는 기능을 이용해 일괄적으로 다 맞추어주기 때문이죠. 이 부분은 아래에서 설..."
+  },
+  
+  {
+    "title": "GO 언어 설치하기",
+    "url": "/posts/GO-installing/",
+    "categories": "Program Language, Go",
+    "tags": "GO",
+    "date": "2019-12-04 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "GO언어를 설치해보도록 하겠습니다. 생각보다 설치하는 건 어렵지도 않고 여러가지 설정 할 것도 별로 없으니 10분이면 설치할 수 있습니다. 우선 설치파일 다운해봅시다. 여기를 클릭하면 아래와 같은 화면이 나오는데 OS에 맞는 설치파일 다운합니다.저는 맥과 윈도우 두가지를 같이 쓰고 있는데, 우선 윈도우랑 맥이랑 그렇게 설치방법이 다르지 않으니 그냥 윈도우로 진행하겠습니다.혹시나 GO언어를 설치는 하기 싫지만, 예제나, 코드를 구현하고 싶다면 여기에 들어가시면 GO언어를 사용하실 수 있습니다. 이 웹은 Go놀이터라고 합니다. 설..."
+  },
+  
+  {
+    "title": "GO 언어란?",
+    "url": "/posts/GO/",
+    "categories": "Program Language, Go",
+    "tags": "GO",
+    "date": "2019-12-03 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "GO언어는 요즘 Docker가 떠오르면서 같이 떠오르는 새로운 언어입니다. 또한 구글에서 만든 언어라고 해서 사람들이 더 관심을 가지고 보는 언어죠. GO언어가 어떤 언어인지 알아보겠습니다.GOGO언어는 범용 프로그래밍 언어이며, 깔끔하고 간결하게 생산성 높은 프로그래밍이 가능합니다. GO언어는 문법이 그렇게 복잡하지 않아서 생각보다 문법적으로는 어렵지 않습니다.또한 빠른 컴파일이 가능하다는 것과 정적 자료형 언어이지만 동적 자료형 언어로 프로그래밍을 작성하는 것 같은 느낌을 주는 것이 가장 큰 장점입니다. 마지막으로 동시성을..."
+  },
+  
+  {
+    "title": "재귀 알고리즘으로 팩토리얼과 최대공약수 구하기 (Python)",
+    "url": "/posts/ALGORITHM-recursive-function-python/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python, 문법",
+    "date": "2019-12-03 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "계속해서 재귀 알고리즘에 익숙해지기 위해 알고리즘 단골 문제인 팩토리얼과 최대공약수를 풀어보겠습니다. 재귀 함수가 무엇인지는 저번 포스팅에서 설명했으므로 이번에는 자세한 이야기는 생략하겠습니다.factorial10!을 구할껀데, 10!을 풀어서 이야기하면 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 이고 , 계산하면 3,628,800 입니다. 구현하면 아래와 같습니다.def factorial2(count):    if count &amp;gt; 0:        return count * factori..."
+  },
+  
+  {
+    "title": "재귀 알고리즘으로 구구단 출력하기(Python)",
+    "url": "/posts/ALGORITHM-python/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2019-12-03 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "알고리즘 문제를 풀면서 반드시 알아야 할 알고리즘 중 하나는 아마 재귀 알고리즘일거라 생각합니다. 재귀 함수를 사용할 수 있는 곳에서는 재귀 함수를 사용하며 알고리즘을 풀면서 공부를 해야 된답니다.재귀 함수재귀 함수는 함수내에서 다시 자신을 호출한 후 그 함수가 끝날때까지 함수 호출 이후의 명령문을 수행하지 않습니다. 즉, “반복문 + 스택구조가 결합된 함수를 재귀함수라고 볼 수 있습니다. 스택 구조가 결합된 함수에 대해서 조금 더 풀어서 이야기해보도록 하겠습니다. 스택구조가 결합되었다는 의미는 먼저 들어간 데이터가 가장 마지..."
+  },
+  
+  {
+    "title": "K-Nearest Neighbors(Knn)을 이용한 동물 분류하기",
+    "url": "/posts/R-K-Nearest-Neighbors-knn5/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2019-12-03 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "여태까지 작은 데이터로 분류했으니 이번엔 약간 조금 더 큰 데이터를 이용해보도록 하겠습니다. 데이터는 여기에서 zoo.csv를 다운 받아주세요. 제가 사용한 데이터의 원문은 여기를 클릭하면 보실 수 있습니다.DataSet데이터는 동물 종류에 따른 특징들이 있고, 라벨은 포유류, 조류, 파충류, 어류, 양서류, 곤충류, 갑각류 총 7가지가 있습니다.우선 데이터를 불러와서 동물의 비율이 어떻게 되는지 확인해보겠습니다.zoo&amp;lt;-read.csv(&quot;zoo.csv&quot;,stringsAsFactors=FALSE,..."
+  },
+  
+  {
+    "title": "K-Nearest Neighbors(Knn)을 이용한 과일 데이터 분류",
+    "url": "/posts/R-K-Nearest-Neighbors-knn4/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2019-12-02 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘은 조금 재미있는 데이터를 가져와봤습니다. 토마토가 야채인지, 과일인지, 단백질인지를 knn을 통하여 분류해서 알아내는 작업을 해보겠습니다. 이번 포스팅에서 사용 되는 데이터는 아래에서 데이터를 직접 만들어서 작성 할 거라서, 따로 다운 받으실 필요는 없습니다.DataSet데이터는 아래와 같습니다. 과일은 사과, 바나나, 당근, 치즈 등 작지만 다양한 데이터 입니다.food &amp;lt;- data.frame(ingredient = c(&quot;apple&quot;, &quot;bacon&quot;, &quot;bana..."
+  },
+  
+  {
+    "title": "파이썬 for문과 if문을 사용해서 파일 읽기",
+    "url": "/posts/PYTHON-for-if-file-read/",
+    "categories": "Program Language, Python",
+    "tags": "문법, Python",
+    "date": "2019-12-02 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "컴퓨터 언어도 “언어” 이기 때문에 계속 사용하면서 익히는 버릇을 길러야 합니다. 그러니, 저번 포스팅때 배운 for문과 if문에 조금 더 익숙해지기 위해 csv파일을 이용하여 if문과 for 문을 같이 사용해보도록 하겠습니다. 데이터는 여기에서 다운받으실 수 있습니다. 혹시나 csv파일이 있다면, 굳이 다운은 받지 않으셔도 됩니다.csv 파일 불러오기우선 csv 파일을 불러오겠습니다. 만약에 같은 경로에 있는 파일이 아니라면, “../../” 이런식으로 Path를 잡아주시면 된답니다. python에서 csv 파일 읽은 모듈이..."
+  },
+  
+  {
+    "title": "SQL group 함수에서 검색 조건(having)과 테이블 회전(pivot)",
+    "url": "/posts/oracle-sql-pivot-having/",
+    "categories": "DB, SQL",
+    "tags": "DB, Oracle, SQL",
+    "date": "2019-12-01 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오랜만에 찾아온 SQL입니다. 오늘은 데이터 분석 함수로 자주 사용 되는 pivot 함수에 대해 알아보겠습니다.오늘 사용 되는 SQL 테이블은 첫 포스팅에 작성한 emp 테이블을 이용 할 예정입니다. 테이블이 없으신 분들은 여기를 클릭하여 테이블을 긁어서 사용하시기를 바랍니다.having우선 having이 먼지 알기전에 간단하게 출력 하나 먼저 해보겠습니다.emp 테이블에서 직업과 직업별 토탈 월급을 간단하게 먼저 출력해보도록 하겠습니다.select job, sum(sal)from empgroup by job;이번에는 위 결과..."
+  },
+  
+  {
+    "title": "파이썬 for문을 사용하여 별찍기",
+    "url": "/posts/PYTHON-for-Stars-print/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법, 별찍기",
+    "date": "2019-12-01 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "반복문은 어떤 언어라고 할 것도 없이 정말 중요하고, 자주 쓰이는 문법입니다. 특히나 for문은 더욱 더 그렇죠. 그럼 오늘은 간단하게 for문의 기본적인 구조와 별찍기를 해보겠습니다 .for파이썬의 for 문의 기본적인 구조는 아래와 같습니다.for문은 리스트나 튜플, 문자열의 첫번째 요소부터 마지막 요소까지 차례로 변수에 대입되어 “수행할 문장1”, “수행할 문장2”등이 수행됩니다. 그래서 조금 더 자세하게 문법을 설명하자면, 아래와 같습니다.숫자 1부터 3까지를 for문을 이용하여 출력해보겠습니다.for i in (1,2..."
+  },
+  
+  {
+    "title": "신경망이 학습 하는 원리? 역전파(backpropagation)에 대해",
+    "url": "/posts/ML-Machine-Learning-backpropagation/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "ML, Python, 신경망",
+    "date": "2019-11-29 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "흔히들 역전파, 영어로 하면 backpropagation이라고 하는 용어를 한번쯤은 들어보셨을 거라 생각합니다. 인공지능은 어떻게 학습하는 것인지, 역전파는(backpropagation)가 무엇인지 알아보도록 하겠습니다.역전파 (backpropagation)역전파는 말이 어려워보이는 것 뿐이지, 생각보다 어려운 개념은 아닙니다. 역전파를 이야기 할때는 순전파라는 개념을 알아야 되기 때문에 함께 이야기 하겠습니다.우선 개념 이해를 위해 쉬운 예를 들어보도록 하겠습니다.우리는 중간고사와 기말고사등과 같은 시험을 잘 보기위해 학교에..."
+  },
+  
+  {
+    "title": "PLSQL로 두개의 숫자의 합 구하기",
+    "url": "/posts/ALGORITHM-Find-the-sum-of-numbers-plsql/",
+    "categories": "Program Language, Algorithm",
+    "tags": "알고리즘, Python",
+    "date": "2019-11-26 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "주 사용언어는 Python이지만, 복습의 의미로 다양한 언어로 알고리즘을 차근차근 풀어볼까 합니다. 오늘은 간단하게 오래전에 습득했지만, 전혀 사용하고 있지 않은 언어인PLSQL을 복습할겸, PLSQL로 간단한 문제를 풀겠습니다.PLSQL로 어떻게 알고리즘을 풀 수 있는가? 를 물어보신다면, PLSQL이 무엇인가? 라는 포스팅이 있으니 참고 하라고 말씀드리고 싶습니다만!안보실꺼 같으니 다시 한번 설명 드리자면, PLSQL은 비절차적 언어인 SQL + 프로그래밍(if,loop)를 이야기합니다. 즉, 절차적 언어로 만드는 프로그래..."
+  },
+  
+  {
+    "title": "파이썬 if문 사용해서 홀짝 출력하기",
+    "url": "/posts/PYTHON-if-odd-numbers/",
+    "categories": "Program Language, Python",
+    "tags": "Python, 문법",
+    "date": "2019-11-26 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "Python의 if문 개념에 대해 알아보겠습니다. Python 이라는 언어 자체가 사람의 언어와 비슷하기 때문에 문법을 금방 습득 하실 수 있습니다. 그럼 이제 예제와 함께 알아보도록 하겠습니다.if문문법은 역시 예를 들면서 봐야 빠릅니다. x와 y를 비교하여 x가 크면 “x가 y보다 크거나 깉습니다”를 출력하고 그것이 아니라면 “x가 y보다 작습니다” 라는 문구를 출력해보겠습니다. Python은 다른 문법과 다르게 사람의 언어와 비슷하다고 했지요? 아래의 예를 보면 더 쉽게 이해실 수 있을꺼예요.# x가 1이고 y가 2인 변..."
+  },
+  
+  {
+    "title": "파이썬의 자료형 개념",
+    "url": "/posts/PYTHON-data-type-concept/",
+    "categories": "Program Language, Python",
+    "tags": "Python",
+    "date": "2019-11-26 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "요즘 핫한 데이터 분석용으로 많이 사용하는 파이썬은 회사나 대학에 파이썬을 많이 사용하고 있습니다.파이썬이 퇴근을 빨리 하기 위해 만들어진 언어라는 재밌는 썰 알고 계신가요? 그래서 그런지 생각보다 문법이 어렵지 않습니다.이번에는 간단하게 파이썬의 자료형 개념에 대해 알아보겠습니다.자료형 개념과 종류파이썬의 자료형이란? 프로그래밍을 할 때 쓰이는 숫자, 문자열 등 자료 형태로 사용하는 모든 것을 말합니다. 자료형 종류에는 숫자, 문자, 리스트, 튜플, 딕셔너리, 집합 자료형이 있으며, 숫자 자료형은 정수형과 실수형이 있습니다...."
+  },
+  
+  {
+    "title": "머신러닝에서 단층/다층퍼셉트론(And, XOR Perceptron) 구현하기",
+    "url": "/posts/ML-Machine-Learning-perceptron/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "ML, Python, 신경망",
+    "date": "2019-11-07 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅에 이어 이번에는 퍼셉트론에 대해 좀더 자세히 다뤄보겠습니다. 또한 직접 PYTHON으로 구현해보겠습니다.단층 퍼셉트론우선 AND Perceptron에 대해 알아보겠습니다.그림의 원을 뉴런 혹은 노드라고 부릅니다.입력 신호가 뉴런에 보내질 때는 각각의 고유한 가중치가 곱해집니다. (x0,x1,x2,w0,w1,w2) 뉴런에서 보내온 신호의 총 합이 정해진 한계를 넘어설 때만 1을 출력합니다. 이 이야기는 저번 포스팅떄도 예를 들어서 애기했습니다.그렇다면 퍼셉트론의 동작원리를 잠시 수식으로 보겠습니다.퍼셉트론 동작원리는..."
+  },
+  
+  {
+    "title": "Relu함수에서 변형된 활성화 함수들(leake Relu,Swish)",
+    "url": "/posts/ML-Machine-Learning-leake-relu-swish/",
+    "categories": "Machine Learning",
+    "tags": "",
+    "date": "2019-11-07 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅에서 이야기 한 활성화 함수 3가지는 가장 기본적인 활성화 함수이며, 흔히 쓰이는 활성화 함수입니다. 그런데 이 활성화 함수 외에도 더 많은 활성화 함수가 있습니다. 오늘은 그 외 나머지 활성화 함수에 대해서 이야기 해보도록 하겠습니다.오늘 포스팅할 대부분의 활성화 함수는 Relu함수의 변형 버전이 많습니다.Relu 함수에서 변형된 활성화 함수들Relu 함수에서 변형된 활성화 함수들은 아래와 같습니다. 물론 여기서 Softplus와 Tanh함수는 변형된 함수는 아니라는 점! 기억해주세요.위의 그래프에서 Leaky R..."
+  },
+  
+  {
+    "title": "퍼셉트론(Perceptron)이란?",
+    "url": "/posts/ML-Machine-Learning/",
+    "categories": "Machine Learning",
+    "tags": "",
+    "date": "2019-11-06 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "퍼셉트론(Perceptron)이란 무엇인지, 딥러닝의 역사에 대해 알아보겠습니다. 아시다시피 “딥러닝” 이라는 분야가 이렇게까지 뜨거워진지는 그리 오래되지는 않았습니다. 하지만 딥러닝 분야는 1943년부터 조금씩 조금씩 시작하고 있었습니다.그렇다면 이제 퍼셉트론이 무엇인지, 역사가 어떻게 되는지 알아보겠습니다.History      1943년미국의 신경외과 의사인 워렌 맥걸록에 의해서 발단이 되었습니다.        1957년프랑크 로젠 블라크가 퍼셉트론 알고리즘을 보안했습니다.사람의 뇌의 동작을 전기 스위치 on/off로 흉..."
+  },
+  
+  {
+    "title": "머신러닝에서 활성화 함수란?(Activation function)",
+    "url": "/posts/ML-Machine-Learning-activation-function/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "etc, Python",
+    "date": "2019-11-06 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이번 포스팅에서는 활성화 함수가 무엇인지와 Python으로 간단하게 함수 구현을 해보도록 하겠습니다.활성화 함수(Activation function)활성화 함수란 신호의 총합을 받아서 다음 신호로 내보낼지 말지를 결정하는 함수를 이야기 합니다. 활성화 함수에는 사실 시그모이드(Sigmoid)와 렐루(Relu)함수 외에도 많은 활성화 함수들이 있습니다. 그중에서도 가장 기본적인 활성화 함수인 Sigmoid, Relu, Softmax 이 3가지에 대해 알아보겠습니다.시그모이드(Sigmoid)시그모이드 함수는 0에서 1사이의 실수를..."
+  },
+  
+  {
+    "title": "PL/SQL의 예외처리(exception)란?",
+    "url": "/posts/PLSQL-exception/",
+    "categories": "DB, PLSQL",
+    "tags": "DB, Oracle, PLSQL",
+    "date": "2019-11-05 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이번 포스팅에서는 PL/SQL의 예외처리(exception)처리에 대해서 알아보겠습니다. 그리고 예외처리를 왜 해야하는지와 종류에 대해 알아보겠습니다.예외처리(exception) ?에외처리는 오라클에 에러가 났을 때, 엔드유져(프로그램 사용자)의 눈높이를 맞추기위해 사용하는 문법입니다. 예를들어 홈플러스 계산원이 컴퓨터 프로그램 화면에 고객번호를 입력하고 해당고객정보를 보려고 했는데, 오라클 에러메세지가 화면에 “ORA-0001 Data not found ….” 이런식으로 나온다면 사용자의 경우 알 수 없습니다. 그렇기 때문에..."
+  },
+  
+  {
+    "title": "PL/SQL이란?",
+    "url": "/posts/plsql/",
+    "categories": "DB, PLSQL",
+    "tags": "DB, Oracle, PLSQL",
+    "date": "2019-11-04 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "PL/SQL이란 무엇인지, 기본 block 구조와 변수 사용법에 대해 간단하게 알아보겠습니다.PLSQL 이란?PLSQL이란 비절차적 언어인 SQL + 프로그래밍(if,loop)를 이야기합니다. 즉, 절차적 언어로 만드는 프로그래밍입니다. if문과 loop문을 사용할 수 있으며, 반복되는 단순한 업무를 자동화 할 수 있습니다.PL/SQL을 배워야 하는 이유우선 PL/SQL은 수많은 단순작업을 자동화하기 위해서 사용합니다. 우리가 분석해야할 데이터들은 크게 2가지 타입으로 볼 수 있습니다.  samll data -&amp;gt; ..."
+  },
+  
+  {
+    "title": "K-Nearest Neighbors(Knn)을 이용한 소개팅 데이터 분류",
+    "url": "/posts/R-Machine-Learning-knn2/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, etc",
+    "date": "2019-11-01 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "knn 분류 예제를 보면서 공부해보도록 하겠습니다. 포스팅에서 사용된 데이터는 여기에서 데이터를 다운 받아주세요.Dataset데이터 설명을 하자면, 소개팅을 수천번하지 않기 때문에 그동안 14번정도 소개팅을 했다고 가정하고 만난 남학생들에 대한 라벨을 호감라벨로 만들었습니다. 14개의 데이터를 knn으로 학습시켜서 예측 모델을 생성하고, 새로 만나게 될 남학생에 대한 데이터로 이 학생의 호감 라벨을 예측해보려고 합니다.머신러닝을 할 때는 필수적으로 데이터 전처리라고 하는 Input 데이터를 알고리즘에 맞게 잘 정재하는 작업이 ..."
+  },
+  
+  {
+    "title": "R을 배워야 하는 이유와 자료구조",
+    "url": "/posts/r-Data-structure/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, etc",
+    "date": "2019-10-30 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "R은 데이터 분석할 때 주로 사용하는 언어입니다. 요즘 데이터 분석가 모집 요망을 보면 SQL과 R은 기본적으로 다루는 기술이기 때문에 데이터 분석을 하고 싶어하는 사람에게는 R은 필수입니다. 데이터 분석이 필요한 이유에 대해 사례 하나를 들어보겠습니다.카카오톡은 2010년 3월에 서비스를 시작한 이후에 폭발적으로 성장해서 2012년 말에 8000만명의 가입자를 넘어섰다고 합니다. 하루 평균 43분간 카카오톡을 하고 하루 방문자가 2700만명, 하루 최대 메세지 이용건수가 42억건에 달한다고 합니다. 예전에는 “문자해”라는 말..."
+  },
+  
+  {
+    "title": "머신러닝 알고리즘, Knn(K-Nearest Neighbors)이란?",
+    "url": "/posts/R-Machine-Learning-knn/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, ML",
+    "date": "2019-10-30 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "오늘은 K-Nearest Neighbors(KNN)라는 알고리즘에 대해 알아보려고 합니다. Knn 머신러닝을 공부하면 가장 쉽게 먼저 접하는 알고리즘 중 하나입니다. 이번 포스팅에서는 Knn이 무엇인지, 필요한 이유에 대해 알아보겠습니다.knn이란 무엇인가?사회적인 관계를 관찰해본적인 있나요? 대략적으로 비슷한 사람끼리 모이는 성질이 있다고 합니다. 그래서 비슷한 취향의 사람들끼리 모여서 동회회를 만들거나 비슷한 부류의 계층의 사람들끼리 친분을 맺기도 합니다.그렇다면 공간적은 관계를 관찰해볼까요?길을 지나다가 보면 가구점이 모..."
+  },
+  
+  {
+    "title": "머신러닝 신경망에서 미분이 필요한 이유",
+    "url": "/posts/ML-Machine-Learning-Differential-neural-network/",
+    "categories": "Machine Learning, Machine Learning-Python",
+    "tags": "ML, Python",
+    "date": "2019-10-29 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "신경망이라는 것을 접하면서 미분, 기울기와 같은 말을 몇번 들어봤습니다.우리는 왜 미분을 사용하는 것인지, 미분이 필요한 이유와 도함수를 Python 으로 간단하게 구현해보도록 하겠습니다.미분이 필요한 이유미분이 필요한 이유는 기존의 가중치를 갱신하기 위해서 사용합니다.하지만 진정한 미분은 컴퓨터로 구현하기 어렵기 때문에 중앙 차분 오차가 발생합니다. 그래서 컴퓨터로 미분을 구현하기 위해서는 수치 미분을 사용해야 합니다.예를 들어보겠습니다.함수 \\(y=f(x)\\)에 대해서 \\(x\\)가 \\(x_{0}\\) 에서 \\(x_{0}+h\\..."
+  },
+  
+  {
+    "title": "K-Nearest Neighbors(Knn)을 이용한 구매여부 분류하기",
+    "url": "/posts/R-K-Nearest-Neighbors-knn3/",
+    "categories": "Machine Learning, Machine Learning-R",
+    "tags": "R, etc",
+    "date": "2019-10-27 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "knn을 사용하여 조금 의미 있는 결과를 가지고 재밌는 결과를 뽑아내보도록 하겠습니다. 데이터는 여기에서 데이터를 다운 받아주세요.DataSet이번 데이터를 열어보면 나이, 월수입, 상품 구매여부, 나이가 있습니다. 이 데이터를 이용해, 백화점 또는 소셜커머스 회사에서 데이터 분석을 통해 구매자가 제품을 구매할 고객인지 아닌지를 알아내려고 한다고 가정해보고 knn을 이용하여 문제를 풀어보도록 하겠습니다.nomalize (정규화)우선 데이터를 불러옵시다.buy&amp;lt;-read.csv(&quot;buy.csv&quot;,f..."
+  },
+  
+  {
+    "title": "인공지능 R&amp;D 그랜드 챌린지 대회 나간 후기",
+    "url": "/posts/ai-challenge/",
+    "categories": "ETC, Daily",
+    "tags": "etc",
+    "date": "2019-10-01 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "아직 도커 사용하는 법에 대해 미숙했던 때였다. 우연찮게 한양대 대학원분들과 우리 회사랑 해서 같이 인공지능 챌린지에 나갔다.국가 공모전은 처음이라 사실 많이 긴장 되었지만, 그전에 네이버 해커톤이나 캐글에 나간 경험으로 인해 약간의 자신감은 있었던 터라 사실 조금은 기뻤다.그러나 이 챌린지에 나간 것을 반은 후회한다고 이야기 할 수 있다. 아니 후회가 아니라 사실은 짜증과 스트레스라고 보면 딱 일것이다.이렇게까지 인공지능에 대해 개념?이 없다라고 해야댈지 아니면 까다롭다고 해야댈지 사실 잘모르겠다.대회가 열리기까지 정말 많은..."
+  },
+  
+  {
+    "title": "SQL의 반올림과 비교함수 사용하기(round,between_months)",
+    "url": "/posts/oracle-sql-round-mod-between/",
+    "categories": "DB, SQL",
+    "tags": "DB, Oracle, SQL",
+    "date": "2019-08-22 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅에 이어서 날짜함수와 간단하게 숫자함수에 대해 알아보겠습니다.숫자함수는 간단하지만 날짜 함수는 생각보다 간단하지 않습니다. 그래서 날짜 함수는 잘봐두셔야합니다.숫자함수와 날짜함수프로그래밍을 조금 해보신 분들은 금방 습득하실 수 있습니다. 숫자함수의 종류는 아래와 같습니다.                  숫자 함수                  round      반올림하는 함수              trunc      반올림하지 않고 버리는 함수              mod      나눈 나머지값을 출력하는 함수..."
+  },
+  
+  {
+    "title": "SQL에서 문자 함수 사용하기(Rpad,substr,replace)",
+    "url": "/posts/oracle-sql-Character-function/",
+    "categories": "DB, SQL",
+    "tags": "DB, Oracle, SQL",
+    "date": "2019-08-21 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "이번 포스팅 부터는 SQL의 문자 함수와 날짜 함수에 대해 자세하게 배워보겠습니다.우선 함수를 왜 사용해야 하는지와 함수의 종류들에 대해 알아보겠습니다.함수를 사용해야 하는 이유?간단한 이유인데, SQL에서 함수를 사용해야 하는 이유는 함수를 이용하면 데이터 검색을 더 쉽고 자세하게 구현할 수 있기 때문입니다.함수의 종류함수의 종류는 크게 2가지로 볼 수 있습니다.                  함수의 종류                  단일행 함수      문자, 숫자, 날짜, 변환, 일반              복수행 함수..."
+  },
+  
+  {
+    "title": "SQL에서 테이블 정렬하기(order by)",
+    "url": "/posts/oracle-sql-order-by/",
+    "categories": "DB, SQL",
+    "tags": "DB, Oracle, SQL",
+    "date": "2019-08-20 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅에 이어서 계속해서 SQL의 데이터 제한 및 정렬에 필요한 연산자와 order by절에 대해 알아보겠습니다.우선 여태까지 배워본 것을 생각하며 간단하게 사원번호가 7788, 7902, 7369번인 사원들의 사원번호와 이름을 출력해보겠습니다. 출력하는 문법은 두가지로 쓸 수 있는데요. 첫번째 방법은 아래와 같이 or을 사용하여 넣는 방법이 있습니다.selete empon, enamefrom empwhere empon = 7788 or empon = 7902 or empon = 7369;두번째 방법은 간단하게 in을 사..."
+  },
+  
+  {
+    "title": "SQL에서 검색 조건 주기(where)",
+    "url": "/posts/oracle-sql-search-criteria/",
+    "categories": "DB, SQL",
+    "tags": "DB, Oracle, SQL",
+    "date": "2019-08-18 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "SQL의 데이터 제한 및 정렬하는 법에 대해 알아보겠습니다. 여기서 말하는 데이터 제한은 검색에 조건을 건다거나, 특정 조건에 부합하는 사람만 출력할 때를 말합니다.whereSQL에서 검색에 조건을 줄때는 where를 사용합니다.where를 사용하여 월급이 3000인 사원들의 이름과 월급을 출력해보겠습니다.selete ename, salfrom empwhere sal = 3000;위와 같이 from 다음에 where 조건 절을 사용하시면 됩니다. 그럼 다시 직업이 SALESMAN인 사람들의 이름과 직업을 출력해볼까요? 여기서 ..."
+  },
+  
+  {
+    "title": "SQL에서 컬럼검색과 별칭(Keyword)",
+    "url": "/posts/oracle-sql-colum-search/",
+    "categories": "DB, SQL",
+    "tags": "DB, Oracle, SQL",
+    "date": "2019-08-18 14:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "저번 포스팅 때는 간단하게, SQL 테이블을  법을 배웠습니다.이번 포스팅에선 SQL 컬럼 검색과 컬럼 별칭을 사용하는 법에 대해 간단하게 알아보겠습니다.EMP Tabel Columnemp table 컬럼은 아래와 같습니다.            column       설명                   empno      사원번호              ename      사원이름              sql      월급              job      직업              mgr      사원의 관리자  ..."
+  },
+  
+  {
+    "title": "Oracle SQL이란?",
+    "url": "/posts/oracle-sql/",
+    "categories": "DB, SQL",
+    "tags": "DB, Oracle, SQL",
+    "date": "2019-08-17 14:05:55 +0800",
+    
+
+
+
+
+
+    "snippet": "SQL이 무엇인지, SQL 명령의 종류, 기본 문법에 대해 알아보겠습니다.What is SQL?Structure Query Language는 Database에서 Data를 검색하거나 조작하기 위해 사용하는 언어입니다. Database record를 삽입, 검색, 업데이트 및 삭제하는데 사용할 수 있으며, 이 외에도 Database 최적화 및 유지 관리를 포함하여 많은 작업을 수행할 수 있습니다.Type of SQLSQL의 종류에는 아래와 같이 크게 5가지가 있습니다.                  명령어             ..."
+  }
+  
+]
+

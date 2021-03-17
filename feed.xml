@@ -1,0 +1,288 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://kejdev.github.io/</id>
+  <title>김감귤</title>
+  <subtitle></subtitle>
+  <updated>2021-03-13T22:21:59+08:00</updated>
+  <author>
+    <name>KEJdev</name>
+    <uri>https://kejdev.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://kejdev.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://kejdev.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2021 KEJdev </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>머신러닝에서 미적분이 필요한 이유 2</title>
+    <link href="https://kejdev.github.io/posts/non-linearity/" rel="alternate" type="text/html" title="머신러닝에서 미적분이 필요한 이유 2" />
+    <published>2021-02-11T14:00:00+08:00</published>
+  
+    <updated>2021-03-12T10:31:03+08:00</updated>
+  
+    <id>https://kejdev.github.io/posts/non-linearity/</id>
+    <content src="https://kejdev.github.io/posts/non-linearity/" />
+    <author>
+      <name>KEJdev</name>
+    </author>
+
+  
+    
+    <category term="Machine Learning" />
+    
+    <category term="Statistics" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      예전 포스팅에 미분이 필요한 이유에 대해서 정말 잠깐 이야기 했었는데, 블로그 정리하면서 보니 설명이 매우 부족한거 같아 좀 더 정리할 겸 이렇게 글을 쓰게 되었다.
+
+다항식
+
+머신러닝에서 비선형 함수를 어떻게 추측해낼까? 우선 비선형 함수를 가장 간단하게 표현하면 아래와 같이 다항식으로 표현할 수 있다.
+
+\[h_{\theta }\left ( x \right )= \theta _{0} + \theta _{1}x +  \theta _{2}x^{2}  +  \theta _{3}x^{3}  +  \theta _{4}x^{4}  +  \theta _{5}x^{5}\]
+
+0차나 1차식을 제외한 모든 다항식은 전부 비선형으로 표현 할 수 있다. 이런 다항식들로 다항식 형태가 아닌 함수들도 근사치를 표현할 수 있...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>데이터 사이언스란?</title>
+    <link href="https://kejdev.github.io/posts/data-science/" rel="alternate" type="text/html" title="데이터 사이언스란?" />
+    <published>2021-02-10T14:00:00+08:00</published>
+  
+    <updated>2021-02-10T14:00:00+08:00</updated>
+  
+    <id>https://kejdev.github.io/posts/data-science/</id>
+    <content src="https://kejdev.github.io/posts/data-science/" />
+    <author>
+      <name>KEJdev</name>
+    </author>
+
+  
+    
+    <category term="Machine Learning" />
+    
+    <category term="Statistics" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      데이터 사이언스 ?
+
+데이터 사이언스는 단순하게 애기하면 곡선형 그래프를 찾는 작업이다.
+아래처럼 같은 데이터에 대해 선형 함수와 비선형 함수가 있다고 가정하자.
+
+
+
+그림에서 선형 함수와 비선형 함수 중 어느 함수가 주어진 데이터를 더 잘 설명하고 있는가? (지금 현재 그래프만 봐서는) 선형함수에 비해 비선형함수가 데이터에 대해 더 잘 설명하고 있다고 볼 수 있다. 데이터 속에 복잡한 규칙이 숨겨져 있을 때, 최적의 (비)선형 함수를 찾아내는 작업을 데이터 사이언스라고 이야기 할 수 있다.
+
+여기서 기억해야 댈 점은, 머신러닝 또한 데이터의 규칙을 찾기 위한 하나의 도구라는 점이다. 즉, 머신러닝은 데이터 속에 숨겨진 규칙들을 찾아내는 모델링 작업의 일환임을 기억하자.
+
+비선형 패턴을 찾기 어려운 이...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>샘플링과 리샘플링의 차이는 무엇일까?</title>
+    <link href="https://kejdev.github.io/posts/sampling-resampling/" rel="alternate" type="text/html" title="샘플링과 리샘플링의 차이는 무엇일까?" />
+    <published>2021-01-25T14:00:00+08:00</published>
+  
+    <updated>2021-02-11T20:41:12+08:00</updated>
+  
+    <id>https://kejdev.github.io/posts/sampling-resampling/</id>
+    <content src="https://kejdev.github.io/posts/sampling-resampling/" />
+    <author>
+      <name>KEJdev</name>
+    </author>
+
+  
+    
+    <category term="Machine Learning" />
+    
+    <category term="Statistics" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      샘플링과 리샘플링은 여러곳에 다양하게 사용되기 때문에 알아둬야 한다. 샘플링과 리샘플링에 대해 간단하게 알아보자.
+
+
+
+샘플링(Sampling)
+
+샘플링은 모집단에서 임의의 Sampling을 뽑아내는 것으로, 쉽게 말해 표본 추출을 의미한다. 샘플링을 하는 가장 큰 이유는 모집단 전체에 대한 조사는 사실상 불가능하기 때문에 Sampling을 이용하여 모집단에 대한 추론을 하게 되는 것이다. 주로 머신러닝과 통계분야에서 흔히 볼 수 있으며 신뢰구간, 오버피팅, 분산 등 밀접한 관련이 있다.
+
+여기서 알아둬야 할 것은 표본은 모집단을 닮은 모집단 mirror 같은 존재이지만, 모집단 그 자체는 아니다. 그렇기 때문에 표본에는 반드시 모집단의 원래 패턴에서 놓치는 부분이 존재 할 수 밖에 없다.
+
+리샘플링(...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>고유값(eigen value)과 고유벡터(eigen vector), 왜 중요한가?</title>
+    <link href="https://kejdev.github.io/posts/eigen-value-eigen-vecotor/" rel="alternate" type="text/html" title="고유값(eigen value)과 고유벡터(eigen vector), 왜 중요한가?" />
+    <published>2021-01-04T14:00:00+08:00</published>
+  
+    <updated>2021-02-11T20:41:12+08:00</updated>
+  
+    <id>https://kejdev.github.io/posts/eigen-value-eigen-vecotor/</id>
+    <content src="https://kejdev.github.io/posts/eigen-value-eigen-vecotor/" />
+    <author>
+      <name>KEJdev</name>
+    </author>
+
+  
+    
+    <category term="Machine Learning" />
+    
+    <category term="Statistics" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      고유값과 고유벡터에 대해서 많이 들어봤을 것이다. 그만큼 무척 중요하다고 모두들 이야기한다. 이번에 새롭게 공부하기 시작하면서 고유값과 고유벡터가 무엇인지, 왜 중요한지에 대해 정리해보려고 한다.
+
+
+
+고유값, 고유벡터란?
+
+대부분 벡터 x에 어떤 행렬 A를 곱하게 되면 벡터의 크기와 방향이 바뀌게 된다. 그러나 정방행렬에 정방행렬의 고유벡터를 곱하면 고유벡터의 방향이 바뀌지 않는다 더 간단히 말하면 벡터x가 행렬 A의 고유벡터라면 바뀌지 않는다.
+
+
+
+월래 정방행렬 A는 임의의 벡터 x과의 행렬연산으로 x의 위치나 방향을 전환 시키는 역활을 하는데, 이때 어떤 특정 벡터들은 A에 곱해져도 위치나 방향이 바뀌어도 월래 자신과 평행하거나 동일한 값을 갖는다. 이러한 벡터들을 고유벡터라고 이야기 한다.  ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>2021 AI 개발자 로드맵</title>
+    <link href="https://kejdev.github.io/posts/AI-Roadmap/" rel="alternate" type="text/html" title="2021 AI 개발자 로드맵" />
+    <published>2021-01-03T14:00:00+08:00</published>
+  
+    <updated>2021-02-11T20:41:12+08:00</updated>
+  
+    <id>https://kejdev.github.io/posts/AI-Roadmap/</id>
+    <content src="https://kejdev.github.io/posts/AI-Roadmap/" />
+    <author>
+      <name>KEJdev</name>
+    </author>
+
+  
+    
+    <category term="ETC" />
+    
+    <category term="etc" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      이제 3년차 머신러닝 개발자로 들어서고 있는 시점에 나는 내가 가지고 있는 역량이나 방향이 제대로 가고 있는지에 대해 또는 무엇을 더 공부해야 되는지에 대해 의문을 가졌다. 로드맵은 언제든 바뀔 수 있으므로 최신버전을 보고 싶다면 링크를 타고 확인하기를 바란다.
+
+
+
+Introduction
+
+
+      
+
+
+Fundamentals
+
+
+      
+
+
+Data Science Roadmap
+
+
+      
+
+
+Machine Learning Roadmap
+
+
+      
+
+
+Deep Learning Roadmap
+
+
+      
+
+
+Data Engineer Roadmap
+
+
+      
+
+
+Big Data Engineer Roadmap
+
+
+      
+
+
+정답이라는 보장은 못하지만 그래도 방향 잡는데에 도...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
